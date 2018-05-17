@@ -1,4 +1,4 @@
 .env
 *.swp
 nbs/.ipynb_checkpoints/*
-tec/__pycache__/*
+tep/__pycache__/*
