@@ -27,7 +27,7 @@ class TweetCollector():
         )
         print(self.api.VerifyCredentials())
 
-    def get_tweets(self, user_ids, start, end):
+    def get_tweets(self, user_ids, start, end, update_interval=50):
         """
         Fetches tweets from the given time frame for the specified users.
 
@@ -35,13 +35,15 @@ class TweetCollector():
             user_ids: Array of integers representing the users
             start: non-naive datetime (including timezone info)
             end: non-naive datetime (including timezone info)
+            update_interval: Number of iterations before an update on current total will be displayed
         Returns:
             Array of twitter.models.Status instances
         """
         tweets = []
         print("Starting data collection...")
         for index, user_id in enumerate(user_ids, start=1):
-            print("Step {0:d}/{1:d}:".format(index, len(user_ids)))
+            if index % update_interval == 1:
+                print("Total tweets after {0:d} steps: {1:,d}".format(index-1, len(tweets)))
             try:
                 tweets += self.get_tweets_for_time_frame(user_id, start, end)
             except TwitterError:
@@ -72,5 +74,4 @@ class TweetCollector():
             else:
                 break
         tweets = [t for t in tweets if (is_newer_than(t, start) and is_older_than(t, end))]
-        print("Fetched {0:d} tweets for user with ID {1:d}".format(len(tweets), user_id))
         return tweets
