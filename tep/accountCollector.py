@@ -48,17 +48,55 @@ class AccountCollector():
     def create_new_list(self, name):
         """
         Create new Twitter list with given name.
+
+        Args:
+            name: string
+        Returns:
+            New twitter.models.List instance
         """
-        return
+        new_list = self.api.CreateList(name)
+        return new_list
 
     def copy_all_users(self, source, target):
         """
         Copy all users from the source to the target list.
+
+        Args:
+            source: twitter.models.List instance to copy
+            target: twitter.models.List instance to add users to
+        Returns:
+            Target list
         """
-        return
+        users = self.api.GetListMembers(list_id=source.id, skip_status=True, include_entities=False)
+        target = self.add_to_list(users, target)
+        return target
 
     def add_to_list(self, users, target):
         """
         Add all given users to the target list.
+
+        Args:
+            users: Array of twitter.models.User instances
+            target: twitter.models.List instance
+        Returns:
+            Target list
         """
+        for user in users:
+            target = self.api.CreateListsMember(list_id=target.id, user_id=user.id)
+        return target
+
+    def get_all_lists(self):
+        """
+        Return all lists for the authenticated user.
+        """
+        return self.api.GetLists()
+
+    def delete_list(self, twitter_list):
+        """
+        Remove the given list.
+
+        Args:
+            list: twitter.models.List instance
+        """
+        self.api.DestroyList(list_id=twitter_list.id)
         return
