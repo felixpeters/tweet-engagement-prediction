@@ -1,5 +1,6 @@
 import os
 import twitter
+from twitter.error import TwitterError
 from dotenv import load_dotenv, find_dotenv
 
 class AccountCollector():
@@ -34,8 +35,11 @@ class AccountCollector():
         users = []
         with open(fname) as f:
             for username in f:
-                user = self.get_user_by_name(username.strip())
-                users.append(user)
+                try:
+                    user = self.get_user_by_name(username.strip())
+                    users.append(user)
+                except TwitterError:
+                    print("User {} could not be loaded.".format(username.strip()))
         return users
 
     def get_user_by_name(self, name):
@@ -100,3 +104,15 @@ class AccountCollector():
         """
         self.api.DestroyList(list_id=twitter_list.id)
         return
+
+    def get_users_from_list(self, list_id):
+        """
+        Load all users from the given Twitter list
+
+        Args:
+            list_id: ID of the Twitter list
+        Returns:
+            List of twitter.models.User instances
+        """
+        return self.api.GetListMembers(list_id=list_id, skip_status=True, include_entities=False)
+

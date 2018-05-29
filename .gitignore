@@ -2,3 +2,4 @@
 *.swp
 nbs/.ipynb_checkpoints/*
 tep/__pycache__/*
+data/*
