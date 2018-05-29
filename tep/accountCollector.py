@@ -42,6 +42,21 @@ class AccountCollector():
                     print("User {} could not be loaded.".format(username.strip()))
         return users
 
+    def load_user_ids(self, fname):
+        """
+        Load user IDs from the given file. IDs should be separated by newlines.
+
+        Args:
+            fname: Name of the file containing user IDs
+        Returns:
+            List of integers
+        """
+        user_ids = []
+        with open(fname) as f:
+            for user_id in f:
+                user_ids.append(int(user_id.strip()))
+        return user_ids
+
     def get_user_by_name(self, name):
         """
         Lookup user with the given name in the API.

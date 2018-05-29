@@ -2,7 +2,7 @@ import os
 import twitter
 from twitter.error import TwitterError
 from dotenv import load_dotenv, find_dotenv
-from utils import is_newer_than, is_older_than
+from .utils import is_newer_than, is_older_than
 
 class TweetCollector():
     """
