@@ -44,3 +44,21 @@ class AccountCollector():
         """
         user = self.api.GetUser(screen_name=name)
         return user
+
+    def create_new_list(self, name):
+        """
+        Create new Twitter list with given name.
+        """
+        return
+
+    def copy_all_users(self, source, target):
+        """
+        Copy all users from the source to the target list.
+        """
+        return
+
+    def add_to_list(self, users, target):
+        """
+        Add all given users to the target list.
+        """
+        return
