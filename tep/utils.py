@@ -1,4 +1,9 @@
 import json
+from datetime import tzinfo, timedelta
+from dateutil.parser import parse
+
+ZERO = timedelta(0)
+HOUR = timedelta(hours=1)
 
 def save_as_json(data, filename):
     """
@@ -23,3 +28,39 @@ def save_as_text(data, filename):
             f.write(str(d))
             f.write("\n")
     return
+
+def is_newer_than(tweet, date):
+    """
+    Determines whether tweet was created after given date.
+
+    Args:
+        tweet: twitter.models.Status instance
+        date: datetime, non-naive (meaning with timezone info)
+    Returns:
+        Boolean
+    """
+    return parse(tweet.created_at) > date
+    
+def is_older_than(tweet, date):
+    """
+    Determines whether tweet was created before given date.
+
+    Args:
+        tweet: twitter.models.Status instance
+        date: datetime, non-naive (meaning with timezone info)
+    Returns:
+        Boolean
+    """
+    return parse(tweet.created_at) < date
+
+class UTC(tzinfo):
+    """ UTC helper class """
+
+    def utcoffset(self, dt):
+        return ZERO
+
+    def tzname(self, dt):
+        return "UTC"
+
+    def dst(self, dt):
+        return ZERO
