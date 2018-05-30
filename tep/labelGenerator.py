@@ -31,7 +31,8 @@ class LabelGenerator():
         labels = np.empty(len(tweets))
         for i, t in enumerate(tweets):
             for j, upper_bound in enumerate(buckets):
-                if t.retweet_count <= upper_bound:
+                count = t.retweet_count or 0
+                if count <= upper_bound:
                     labels[i] = int(j)
                     break
             else:

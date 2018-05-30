@@ -20,7 +20,7 @@ class DataPreprocessor():
         """
         result = []
         for t in tweets:
-            text = t.text.encode('utf-8')
+            text = t.text
             result.append(tokenize(text))
         return result
 

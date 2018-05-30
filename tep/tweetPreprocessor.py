@@ -56,5 +56,5 @@ def tokenize(input):
     # mark allcaps words
     input = re.sub(r'([A-Z]{2,})', allcaps_repl, input)
     # filter unicode characters
-    input = input.decode('unicode_escape', 'ignore').encode('ascii', 'ignore')
+    #input = input.decode('unicode_escape', 'ignore').encode('ascii', 'ignore')
     return input.lower()
