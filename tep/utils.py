@@ -1,4 +1,5 @@
 import json
+import bcolz
 from datetime import tzinfo, timedelta
 from dateutil.parser import parse
 
@@ -28,6 +29,20 @@ def save_as_text(data, filename):
             f.write(str(d))
             f.write("\n")
     return
+
+def save_array(array, filename):
+    """
+    Save numpy array to file in compressed form.
+    """
+    c = bcolz.carray(array, rootdir=filename, mode='w')
+    c.flush()
+    return
+
+def load_array(filename):
+    """
+    Load numpy array from file.
+    """
+    return bcolz.open(filename)[:]
 
 def is_newer_than(tweet, date):
     """
