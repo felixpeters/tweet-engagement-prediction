@@ -15,6 +15,7 @@ stem from tweet objects as fetched from the public Twitter API.
 Two specific tasks will be examined:
 * Regression task: predict positive, real-valued number for eventual retweet count
 * Classification task: predict certain range for eventual retweet count
+
 Classes for classification task: `0, 1-9, 10-99, 100-999, >=1,000`
 
 **Assumption:** All examined tweets are at least one month old at the time of
