@@ -1,10 +1,36 @@
 import json
 import bcolz
+import numpy as np
+import pandas as pd
 from datetime import tzinfo, timedelta
 from dateutil.parser import parse
 
 ZERO = timedelta(0)
 HOUR = timedelta(hours=1)
+
+def class_distribution(data, title, normalize=False, sort=False):
+    """
+    Return value counts (or percentages) for the given discrete distribution.
+    """
+    df = pd.DataFrame(data=data, columns=[title])
+    df = df[title].astype('category')
+    counts = df.value_counts(sort=sort, normalize=normalize)
+    return counts
+
+def discretize(data, boundaries):
+    """
+    Discretize a continuous distributions into classes according to the given
+    boundaries.
+    """
+    classes = np.empty(len(data))
+    for i, count in enumerate(data):
+        for j, upper_bound in enumerate(boundaries):
+            if count <= upper_bound:
+                classes[i] = int(j)
+                break
+        else:
+            classes[i] = len(boundaries)
+    return classes
 
 def save_as_json(data, filename):
     """
