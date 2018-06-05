@@ -3,4 +3,5 @@
 nbs/.ipynb_checkpoints/*
 tep/__pycache__/*
 data/*
+glove/*
 !data/user_ids.txt
