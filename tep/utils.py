@@ -52,7 +52,7 @@ def save_as_text(data, filename):
     """
     with open(filename, 'w') as f:
         for d in data:
-            f.write(str(d))
+            f.write(d.encode('unicode_escape').decode())
             f.write("\n")
     return
 

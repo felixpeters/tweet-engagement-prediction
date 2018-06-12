@@ -52,7 +52,7 @@ class EmbeddingGenerator():
         Returns:
             The loaded embeddings index
         """
-        f = open(filename)
+        f = open(filename, encoding='utf-8')
         coefs = [] 
         for line in f:
             values = line.split()

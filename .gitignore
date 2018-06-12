@@ -1,4 +1,5 @@
 .env
+*.pyc
 *.swp
 nbs/.ipynb_checkpoints/*
 tep/__pycache__/*
