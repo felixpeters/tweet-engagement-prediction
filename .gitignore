@@ -5,4 +5,5 @@ nbs/.ipynb_checkpoints/*
 tep/__pycache__/*
 data/*
 glove/*
+models/tmp/*
 !data/user_ids.txt
