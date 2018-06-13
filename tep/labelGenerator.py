@@ -38,18 +38,3 @@ class LabelGenerator():
             else:
                 labels[i] = len(buckets)
         return labels
-
-    def one_hot_encoding(self, class_labels, number_classes):
-        """
-        Returns one-hot encoded class labels.
-
-        Args:
-            class_labels: Array of class labels
-            number_classes: Number of buckets
-        Returns:
-            Numpy array of one-hot encoded label rows
-        """
-        labels = np.zeros((len(class_labels), number_classes)) 
-        for index, class_label in enumerate(class_labels):
-            labels[index, int(class_label)] = 1
-        return labels

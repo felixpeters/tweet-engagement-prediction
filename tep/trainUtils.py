@@ -1,13 +1,17 @@
+import itertools
+from itertools import chain
 import keras
 from keras.callbacks import ModelCheckpoint, History, EarlyStopping
 import matplotlib.pyplot as plt
+import numpy as np
+from sklearn.metrics import confusion_matrix
 
 def get_callbacks(model_name, patience=5, verbose=0):
     """
     Return ModelCheckpoint, EarlyStopping and History callbacks as an array.
     """
     filename = "models/" + model_name + ".hdf5"
-    checkpoint = ModelCheckpoint(filename, verbose=verbose, save_weights_only=True)
+    checkpoint = ModelCheckpoint(filename, verbose=verbose, save_best_only=True, save_weights_only=True)
     early_stopping = EarlyStopping(patience=patience, verbose=verbose)
     history = History()
     return [checkpoint, early_stopping, history]
@@ -27,3 +31,44 @@ def plot_loss(history):
     plt.ylabel('Loss')
     plt.show()
     return
+
+def plot_cm(predictions, actuals, classes, normalize=False, cmap=plt.cm.Blues):
+    """
+    Create and plot confusion matrix for the given predictions.
+    """
+    cm = confusion_matrix(actuals, predictions) 
+    plt.figure()
+    plt.imshow(cm, interpolation='nearest', cmap=cmap)
+    plt.colorbar()
+    tick_marks = np.arange(len(classes))
+    plt.xticks(tick_marks, classes, rotation=0)
+    plt.yticks(tick_marks, classes)
+
+    if normalize:
+        cm = cm.astype('float') / cm.sum(axis=1)[:, np.newaxis]
+        cm = cm.round(decimals=2)
+    for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
+        plt.text(j, i, cm[i, j], horizontalalignment="center", color="black")
+    plt.tight_layout()
+    plt.ylabel('Actual class')
+    plt.xlabel('Predicted class')
+    plt.show()
+    return
+
+def one_hot_encoding(class_labels, number_classes):
+    """
+    Returns one-hot encoded class labels.
+    """
+    labels = np.zeros((len(class_labels), number_classes))
+    for index, class_label in enumerate(class_labels):
+        labels[index, int(class_label)] = 1
+    return labels
+
+def one_hot_to_class(labels):
+    """
+    Undo one-hot encoding, i.e., return class number.
+    """
+    classes = np.empty(len(labels))
+    for i, label in enumerate(labels):
+        classes[i] = np.argmax(label)
+    return classes
