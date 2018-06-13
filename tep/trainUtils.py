@@ -1,12 +1,12 @@
 import itertools
 from itertools import chain
 import keras
-from keras.callbacks import ModelCheckpoint, History, EarlyStopping
+from keras.callbacks import ModelCheckpoint, History, EarlyStopping, TensorBoard
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.metrics import confusion_matrix
 
-def get_callbacks(model_name, patience=5, verbose=0):
+def get_callbacks(model_name, log_dir, patience=5, verbose=0, emb_meta=None):
     """
     Return ModelCheckpoint, EarlyStopping and History callbacks as an array.
     """
@@ -14,7 +14,8 @@ def get_callbacks(model_name, patience=5, verbose=0):
     checkpoint = ModelCheckpoint(filename, verbose=verbose, save_best_only=True, save_weights_only=True)
     early_stopping = EarlyStopping(patience=patience, verbose=verbose)
     history = History()
-    return [checkpoint, early_stopping, history]
+    tensorboard = TensorBoard(log_dir=log_dir, histogram_freq=5, write_grads=True, embeddings_freq=0, embeddings_metadata=emb_meta)
+    return [checkpoint, early_stopping, history, tensorboard]
 
 def plot_loss(history):
     """
