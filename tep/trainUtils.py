@@ -33,6 +33,17 @@ def plot_loss(history):
     plt.show()
     return
 
+def print_classification_metrics(history):
+    """
+    Print cross-entropy and accuracy metrics for training and validation set.
+    """
+    val_loss = history.history['val_loss']
+    loss = history.history['loss']
+    val_acc = history.history['val_acc']
+    acc = history.history['acc']
+    i = np.argmin(val_loss)
+    print("loss: {}, acc: {}, val_loss: {}, val_acc: {}".format(loss[i], acc[i], val_loss[i], val_acc[i]))
+
 def plot_cm(predictions, actuals, classes, normalize=False, cmap=plt.cm.Blues):
     """
     Create and plot confusion matrix for the given predictions.
