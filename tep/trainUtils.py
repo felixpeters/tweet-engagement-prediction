@@ -5,6 +5,15 @@ from keras.callbacks import ModelCheckpoint, History, EarlyStopping, TensorBoard
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.metrics import confusion_matrix
+import keras.backend as K
+
+def r2(y_true, y_pred):
+    """
+    Return r2 score as an additional metric for regression models.
+    """
+    SS_res =  K.sum(K.square(y_true-y_pred))
+    SS_tot = K.sum(K.square(y_true - K.mean(y_true)))
+    return (1 - SS_res/(SS_tot + K.epsilon()))
 
 def get_callbacks(model_name, log_dir, patience=5, verbose=0, emb_meta=None):
     """
@@ -43,6 +52,19 @@ def print_classification_metrics(history):
     acc = history.history['acc']
     i = np.argmin(val_loss)
     print("loss: {}, acc: {}, val_loss: {}, val_acc: {}".format(loss[i], acc[i], val_loss[i], val_acc[i]))
+    return
+
+def print_regression_metrics(history):
+    """
+    Print MSE and R2 metrics for training and validation set.
+    """
+    val_loss = history.history['val_loss']
+    loss = history.history['loss']
+    val_r2 = history.history['val_r2']
+    r2 = history.history['r2']
+    i = np.argmin(val_loss)
+    print("loss: {}, r2: {}, val_loss: {}, val_r2: {}".format(loss[i], r2[i], val_loss[i], val_r2[i]))
+    return
 
 def plot_cm(predictions, actuals, classes, normalize=False, cmap=plt.cm.Blues):
     """
