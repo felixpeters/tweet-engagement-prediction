@@ -8,4 +8,5 @@ glove/*
 logs/*
 models/lin_reg/*
 models/lin_class/*
+models/dffn_class/*
 !data/user_ids.txt
