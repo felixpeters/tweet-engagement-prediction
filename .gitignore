@@ -6,5 +6,6 @@ tep/__pycache__/*
 data/*
 glove/*
 logs/*
-models/tmp/*
+models/lin_reg/*
+models/lin_class/*
 !data/user_ids.txt
