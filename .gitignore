@@ -6,6 +6,7 @@ tep/__pycache__/*
 data/*
 glove/*
 logs/*
+models/*
 models/lin_reg/*
 models/lin_class/*
 models/dffn_class/*
