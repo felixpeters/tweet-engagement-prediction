@@ -42,14 +42,14 @@ print("Testing a total of {} network architectures".format(len(configs)))
 # Train model
 
 # use settings for testing on sample
-train_size = 10000
-val_size = 1000
-batch_size = 64
+#train_size = 10000
+#val_size = 1000
+#batch_size = 64
 
 # use settings for running on full data
-#val_size = 10000
-#train_size = features.shape[0] - val_size
-#batch_size = 512
+val_size = 10000
+train_size = features.shape[0] - val_size
+batch_size = 512
 
 root_name = 'dffn_class'
 root_path = 'models/' + root_name
