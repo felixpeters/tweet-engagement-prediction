@@ -15,7 +15,7 @@ def r2(y_true, y_pred):
     SS_tot = K.sum(K.square(y_true - K.mean(y_true)))
     return (1 - SS_res/(SS_tot + K.epsilon()))
 
-def get_callbacks(model_name, log_dir, stop_patience=10, lr_patience=5, verbose=0, emb_meta=None):
+def get_callbacks(model_name, log_dir, stop_patience=10, lr_patience=5, verbose=0, emb_freq=0, emb_layers=None, emb_meta=None):
     """
     Return ModelCheckpoint, EarlyStopping and History callbacks as an array.
     """
@@ -23,7 +23,7 @@ def get_callbacks(model_name, log_dir, stop_patience=10, lr_patience=5, verbose=
     checkpoint = ModelCheckpoint(filename, verbose=verbose, save_best_only=True, save_weights_only=True)
     early_stopping = EarlyStopping(patience=stop_patience, verbose=verbose)
     history = History()
-    tensorboard = TensorBoard(log_dir=log_dir, histogram_freq=5, write_grads=True, embeddings_freq=0, embeddings_metadata=emb_meta)
+    tensorboard = TensorBoard(log_dir=log_dir, histogram_freq=5, write_grads=True, embeddings_freq=emb_freq, embeddings_layer_names=emb_layers, embeddings_metadata=emb_meta)
     reduce_lr = ReduceLROnPlateau(factor=0.2, patience=lr_patience, verbose=verbose)
     return [checkpoint, early_stopping, history, tensorboard, reduce_lr]
 
