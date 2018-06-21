@@ -9,10 +9,10 @@ print("TASK SETUP")
 print("Number of classes: {}".format(num_classes))
 
 from tep.utils import load_array
-seqs = load_array(filename="data/sequences_len48.bc")
-emb_mat = load_array(filename="data/embedding_matrix_100dim.bc")
-features = load_array(filename="data/auxiliary_features.bc")
-labels = load_array(filename="data/classification_labels.bc")
+seqs = load_array(filename="data/sequences_len32_v2.bc")
+emb_mat = load_array(filename="data/embedding_matrix_100dim_v2.bc")
+features = load_array(filename="data/auxiliary_features_v2.bc")
+labels = load_array(filename="data/classification_labels_v2.bc")
 print("Number of training examples: {}".format(features.shape[0]))
 print("Sequence length: {}".format(seqs.shape[1]))
 print("Number of words in embedding: {}".format(emb_mat.shape[0]))
@@ -24,22 +24,16 @@ oh_labels = one_hot_encoding(class_labels=labels, number_classes=num_classes)
 
 # define configurations to test
 configs = [
-        {'name': '1c32n_1fc64n_02d', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 1, 'fc_units': 64, 'dropout': 0.2},
-        {'name': '1c32n_1fc64n_05d', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 1, 'fc_units': 64, 'dropout': 0.5},
-        {'name': '1c32n_1fc128n_02d', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 1, 'fc_units': 128, 'dropout': 0.2},
-        {'name': '1c32n_1fc128n_05d', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 1, 'fc_units': 128, 'dropout': 0.5},
-        {'name': '1c32n_2fc64n_02d', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 2, 'fc_units': 64, 'dropout': 0.2},
-        {'name': '1c32n_2fc64n_05d', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 2, 'fc_units': 64, 'dropout': 0.5},
-        {'name': '1c32n_2fc128n_02d', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.2},
-        {'name': '1c32n_2fc128n_05d', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.5},
-        {'name': '1c64n_1fc64n_02d', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 1, 'fc_units': 64, 'dropout': 0.2},
-        {'name': '1c64n_1fc64n_05d', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 1, 'fc_units': 64, 'dropout': 0.5},
-        {'name': '1c64n_1fc128n_02d', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 1, 'fc_units': 128, 'dropout': 0.2},
-        {'name': '1c64n_1fc128n_05d', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 1, 'fc_units': 128, 'dropout': 0.5},
-        {'name': '1c64n_2fc64n_02d', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 2, 'fc_units': 64, 'dropout': 0.2},
-        {'name': '1c64n_2fc64n_05d', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 2, 'fc_units': 64, 'dropout': 0.5},
-        {'name': '1c64n_2fc128n_02d', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.2},
-        {'name': '1c64n_2fc128n_05d', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.5},
+        {'name': '1c32n_1fc64n', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 1, 'fc_units': 64, 'dropout': 0.5},
+        {'name': '1c32n_1fc128n', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 1, 'fc_units': 128, 'dropout': 0.5},
+        {'name': '1c32n_2fc64n', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 2, 'fc_units': 64, 'dropout': 0.5},
+        {'name': '1c32n_2fc128n', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.5},
+        {'name': '1c64n_1fc64n', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 1, 'fc_units': 64, 'dropout': 0.5},
+        {'name': '1c64n_1fc128n', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 1, 'fc_units': 128, 'dropout': 0.5},
+        {'name': '1c64n_2fc64n', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 2, 'fc_units': 64, 'dropout': 0.5},
+        {'name': '1c64n_2fc128n', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.5},
+        {'name': '2c32n_1fc64n', 'conv_layers': 2, 'conv_filters': 32, 'fc_layers': 1, 'fc_units': 64, 'dropout': 0.5},
+        {'name': '2c64n_2fc128n', 'conv_layers': 2, 'conv_filters': 64, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.5},
 ]
 
 print("Testing a total of {} network architectures".format(len(configs)))
@@ -48,14 +42,14 @@ print("\n")
 # Train model
 
 # use settings for testing on sample
-train_size = 1000
-val_size = 100
-batch_size = 64
+#train_size = 1000
+#val_size = 100
+#batch_size = 64
 
 # use settings for running on full data
-#val_size = 10000
-#train_size = features.shape[0] - val_size
-#batch_size = 512
+val_size = 10000
+train_size = features.shape[0] - val_size
+batch_size = 1024
 
 root_name = 'dmin_class'
 root_path = 'models/' + root_name
@@ -67,7 +61,7 @@ from tep.trainUtils import get_callbacks, print_classification_metrics
 print("START MODEL TRAINING")
 print("\n")
 
-for config in configs[:2]:
+for config in configs:
     # clear tf session first in order to avoid conflicts
     K.clear_session()
 
@@ -85,6 +79,7 @@ for config in configs[:2]:
     get_ipython().system('mkdir -p $logging_path')
     # Remove prior logs
     get_ipython().system('rm $logging_path/*')
+    get_ipython().system('cp data/word_labels.tsv $logging_path')
 
     model = classification_model(
             features.shape[1],
@@ -100,7 +95,7 @@ for config in configs[:2]:
     save_architecture(model, model_path + '.json')
 
     # load model callbacks
-    cbs = get_callbacks(model_name=model_name, log_dir=logging_path, verbose=1, emb_freq=5)
+    cbs = get_callbacks(model_name=model_name, log_dir=logging_path, stop_patience=6, lr_patience=3, verbose=1, emb_freq=10, emb_layers=['word_embedding'], emb_meta={'word_embedding': 'word_labels.tsv'})
 
     # train model
     model.fit(
