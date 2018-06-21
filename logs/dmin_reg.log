@@ -1,0 +1,297 @@
+nohup: ignoring input
+zsh:1: no matches found: models/dmin_reg/1c32n_2fc128n/*
+2018-06-21 02:58:56.688780: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-06-21 02:58:56.689006: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: Quadro P4000 major: 6 minor: 1 memoryClockRate(GHz): 1.48
+pciBusID: 0000:00:05.0
+totalMemory: 7.92GiB freeMemory: 7.44GiB
+2018-06-21 02:58:56.689023: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-06-21 02:58:56.941901: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-06-21 02:58:56.941948: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-06-21 02:58:56.941956: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-06-21 02:58:56.942148: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7186 MB memory) -> physical GPU (device: 0, name: Quadro P4000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+Number of training examples: 1293005
+Sequence length: 32
+Number of words in embedding: 387785
+Embedding dimension: 100
+Number of input features: 15
+Labels are log1p transformed
+Testing a total of 8 network architectures
+
+
+Start training model: dmin_reg_1c32n_2fc128n
+Training set: 1283005 examples
+Validation set: 10000 examples
+WARNING:tensorflow:From /home/paperspace/anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:497: calling conv1d (from tensorflow.python.ops.nn_ops) with data_format=NHWC is deprecated and will be removed in a future version.
+Instructions for updating:
+`NHWC` for data_format is deprecated, use `NWC` instead
+WARNING:tensorflow:From /home/paperspace/anaconda3/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:198: retry (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use the retry module or similar alternatives.
+zsh:1: no matches found: models/dmin_reg/1c32n_2fc128n_unreg/*
+2018-06-21 03:09:13.292496: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-06-21 03:09:13.292557: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-06-21 03:09:13.292565: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-06-21 03:09:13.292571: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-06-21 03:09:13.292680: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7186 MB memory) -> physical GPU (device: 0, name: Quadro P4000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+zsh:1: no matches found: models/dmin_reg/1c64n_2fc128n/*
+2018-06-21 03:16:48.226922: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-06-21 03:16:48.226987: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-06-21 03:16:48.226995: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-06-21 03:16:48.227002: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-06-21 03:16:48.227117: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7186 MB memory) -> physical GPU (device: 0, name: Quadro P4000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+zsh:1: no matches found: models/dmin_reg/1c64n_2fc128n_unreg/*
+2018-06-21 03:26:32.028618: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-06-21 03:26:32.028684: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-06-21 03:26:32.028703: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-06-21 03:26:32.028710: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-06-21 03:26:32.028828: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7186 MB memory) -> physical GPU (device: 0, name: Quadro P4000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+zsh:1: no matches found: models/dmin_reg/2c32n_2fc128n/*
+2018-06-21 03:33:32.015168: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-06-21 03:33:32.015235: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-06-21 03:33:32.015245: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-06-21 03:33:32.015251: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-06-21 03:33:32.015385: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7186 MB memory) -> physical GPU (device: 0, name: Quadro P4000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+zsh:1: no matches found: models/dmin_reg/2c32n_2fc128n_unreg/*
+2018-06-21 03:41:23.586106: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-06-21 03:41:23.586166: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-06-21 03:41:23.586174: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-06-21 03:41:23.586180: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-06-21 03:41:23.586285: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7186 MB memory) -> physical GPU (device: 0, name: Quadro P4000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+zsh:1: no matches found: models/dmin_reg/2c64n_2fc128n/*
+2018-06-21 03:49:10.518319: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-06-21 03:49:10.518385: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-06-21 03:49:10.518393: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-06-21 03:49:10.518398: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-06-21 03:49:10.518516: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7186 MB memory) -> physical GPU (device: 0, name: Quadro P4000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+zsh:1: no matches found: models/dmin_reg/2c64n_2fc128n_unreg/*
+2018-06-21 03:57:34.325993: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2018-06-21 03:57:34.326054: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2018-06-21 03:57:34.326062: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2018-06-21 03:57:34.326068: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2018-06-21 03:57:34.326178: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7186 MB memory) -> physical GPU (device: 0, name: Quadro P4000, pci bus id: 0000:00:05.0, compute capability: 6.1)
+
+Epoch 00001: val_loss improved from inf to 1.02067, saving model to models/dmin_reg_1c32n_2fc128n.hdf5
+
+Epoch 00002: val_loss improved from 1.02067 to 0.91344, saving model to models/dmin_reg_1c32n_2fc128n.hdf5
+
+Epoch 00003: val_loss improved from 0.91344 to 0.86797, saving model to models/dmin_reg_1c32n_2fc128n.hdf5
+
+Epoch 00004: val_loss improved from 0.86797 to 0.84123, saving model to models/dmin_reg_1c32n_2fc128n.hdf5
+
+Epoch 00005: val_loss improved from 0.84123 to 0.82687, saving model to models/dmin_reg_1c32n_2fc128n.hdf5
+
+Epoch 00006: val_loss improved from 0.82687 to 0.82625, saving model to models/dmin_reg_1c32n_2fc128n.hdf5
+
+Epoch 00007: val_loss did not improve
+
+Epoch 00008: val_loss did not improve
+
+Epoch 00009: val_loss did not improve
+
+Epoch 00010: val_loss did not improve
+
+Epoch 00010: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00011: val_loss did not improve
+
+Epoch 00012: val_loss did not improve
+Epoch 00012: early stopping
+loss: 0.684989035767542, r2: 0.8497999286260072, val_loss: 0.8262480396270752, val_r2: 0.8173316733360291
+
+
+Start training model: dmin_reg_1c32n_2fc128n_unreg
+Training set: 1283005 examples
+Validation set: 10000 examples
+
+Epoch 00001: val_loss improved from inf to 1.00812, saving model to models/dmin_reg_1c32n_2fc128n_unreg.hdf5
+
+Epoch 00002: val_loss improved from 1.00812 to 0.91652, saving model to models/dmin_reg_1c32n_2fc128n_unreg.hdf5
+
+Epoch 00003: val_loss improved from 0.91652 to 0.90412, saving model to models/dmin_reg_1c32n_2fc128n_unreg.hdf5
+
+Epoch 00004: val_loss did not improve
+
+Epoch 00005: val_loss did not improve
+
+Epoch 00006: val_loss did not improve
+
+Epoch 00007: val_loss did not improve
+
+Epoch 00007: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00008: val_loss did not improve
+
+Epoch 00009: val_loss did not improve
+Epoch 00009: early stopping
+loss: 0.7206076393198019, r2: 0.8420158648122409, val_loss: 0.904119140625, val_r2: 0.8000981822013855
+
+
+Start training model: dmin_reg_1c64n_2fc128n
+Training set: 1283005 examples
+Validation set: 10000 examples
+
+Epoch 00001: val_loss improved from inf to 0.97887, saving model to models/dmin_reg_1c64n_2fc128n.hdf5
+
+Epoch 00002: val_loss improved from 0.97887 to 0.87732, saving model to models/dmin_reg_1c64n_2fc128n.hdf5
+
+Epoch 00003: val_loss improved from 0.87732 to 0.84897, saving model to models/dmin_reg_1c64n_2fc128n.hdf5
+
+Epoch 00004: val_loss did not improve
+
+Epoch 00005: val_loss improved from 0.84897 to 0.83118, saving model to models/dmin_reg_1c64n_2fc128n.hdf5
+
+Epoch 00006: val_loss did not improve
+
+Epoch 00007: val_loss did not improve
+
+Epoch 00008: val_loss did not improve
+
+Epoch 00009: val_loss did not improve
+
+Epoch 00009: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00010: val_loss did not improve
+
+Epoch 00011: val_loss did not improve
+Epoch 00011: early stopping
+loss: 0.6870880552424566, r2: 0.8494170159156886, val_loss: 0.8311783462524414, val_r2: 0.8162433753967285
+
+
+Start training model: dmin_reg_1c64n_2fc128n_unreg
+Training set: 1283005 examples
+Validation set: 10000 examples
+
+Epoch 00001: val_loss improved from inf to 0.96617, saving model to models/dmin_reg_1c64n_2fc128n_unreg.hdf5
+
+Epoch 00002: val_loss improved from 0.96617 to 0.86998, saving model to models/dmin_reg_1c64n_2fc128n_unreg.hdf5
+
+Epoch 00003: val_loss did not improve
+
+Epoch 00004: val_loss did not improve
+
+Epoch 00005: val_loss did not improve
+
+Epoch 00006: val_loss did not improve
+
+Epoch 00006: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00007: val_loss did not improve
+
+Epoch 00008: val_loss did not improve
+Epoch 00008: early stopping
+loss: 0.8391188173312074, r2: 0.8160901828663121, val_loss: 0.8699773056983948, val_r2: 0.8077611733436585
+
+
+Start training model: dmin_reg_2c32n_2fc128n
+Training set: 1283005 examples
+Validation set: 10000 examples
+
+Epoch 00001: val_loss improved from inf to 1.01071, saving model to models/dmin_reg_2c32n_2fc128n.hdf5
+
+Epoch 00002: val_loss improved from 1.01071 to 0.95024, saving model to models/dmin_reg_2c32n_2fc128n.hdf5
+
+Epoch 00003: val_loss improved from 0.95024 to 0.82703, saving model to models/dmin_reg_2c32n_2fc128n.hdf5
+
+Epoch 00004: val_loss did not improve
+
+Epoch 00005: val_loss did not improve
+
+Epoch 00006: val_loss did not improve
+
+Epoch 00007: val_loss did not improve
+
+Epoch 00007: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00008: val_loss did not improve
+
+Epoch 00009: val_loss did not improve
+Epoch 00009: early stopping
+loss: 0.803871106221683, r2: 0.8238393906316795, val_loss: 0.8270294723510743, val_r2: 0.8173224190711975
+
+
+Start training model: dmin_reg_2c32n_2fc128n_unreg
+Training set: 1283005 examples
+Validation set: 10000 examples
+
+Epoch 00001: val_loss improved from inf to 1.09030, saving model to models/dmin_reg_2c32n_2fc128n_unreg.hdf5
+
+Epoch 00002: val_loss improved from 1.09030 to 0.87225, saving model to models/dmin_reg_2c32n_2fc128n_unreg.hdf5
+
+Epoch 00003: val_loss improved from 0.87225 to 0.86081, saving model to models/dmin_reg_2c32n_2fc128n_unreg.hdf5
+
+Epoch 00004: val_loss did not improve
+
+Epoch 00005: val_loss did not improve
+
+Epoch 00006: val_loss did not improve
+
+Epoch 00007: val_loss did not improve
+
+Epoch 00007: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00008: val_loss did not improve
+
+Epoch 00009: val_loss did not improve
+Epoch 00009: early stopping
+loss: 0.710121508571258, r2: 0.8443159306703601, val_loss: 0.8608122741699219, val_r2: 0.8098031077384948
+
+
+Start training model: dmin_reg_2c64n_2fc128n
+Training set: 1283005 examples
+Validation set: 10000 examples
+
+Epoch 00001: val_loss improved from inf to 0.97737, saving model to models/dmin_reg_2c64n_2fc128n.hdf5
+
+Epoch 00002: val_loss improved from 0.97737 to 0.95265, saving model to models/dmin_reg_2c64n_2fc128n.hdf5
+
+Epoch 00003: val_loss improved from 0.95265 to 0.81905, saving model to models/dmin_reg_2c64n_2fc128n.hdf5
+
+Epoch 00004: val_loss did not improve
+
+Epoch 00005: val_loss did not improve
+
+Epoch 00006: val_loss did not improve
+
+Epoch 00007: val_loss did not improve
+
+Epoch 00007: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00008: val_loss did not improve
+
+Epoch 00009: val_loss did not improve
+Epoch 00009: early stopping
+loss: 0.8076236842781055, r2: 0.8230119493866084, val_loss: 0.8190477968215942, val_r2: 0.8190370969772339
+
+
+Start training model: dmin_reg_2c64n_2fc128n_unreg
+Training set: 1283005 examples
+Validation set: 10000 examples
+
+Epoch 00001: val_loss improved from inf to 0.99299, saving model to models/dmin_reg_2c64n_2fc128n_unreg.hdf5
+
+Epoch 00002: val_loss improved from 0.99299 to 0.90121, saving model to models/dmin_reg_2c64n_2fc128n_unreg.hdf5
+
+Epoch 00003: val_loss improved from 0.90121 to 0.85668, saving model to models/dmin_reg_2c64n_2fc128n_unreg.hdf5
+
+Epoch 00004: val_loss did not improve
+
+Epoch 00005: val_loss did not improve
+
+Epoch 00006: val_loss did not improve
+
+Epoch 00007: val_loss did not improve
+
+Epoch 00007: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00008: val_loss did not improve
+
+Epoch 00009: val_loss did not improve
+Epoch 00009: early stopping
+loss: 0.7023596894409773, r2: 0.846012168027401, val_loss: 0.8566791324615478, val_r2: 0.810655493927002
+
+
+END MODEL TRAINING
+/home/paperspace/anaconda3/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.

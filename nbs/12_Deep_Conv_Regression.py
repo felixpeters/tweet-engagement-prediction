@@ -35,14 +35,14 @@ print("\n")
 # Train model
 
 # use settings for testing on sample
-train_size = 1000
-val_size = 100
-batch_size = 64
+#train_size = 1000
+#val_size = 100
+#batch_size = 64
 
 # use settings for running on full data
-#val_size = 10000
-#train_size = features.shape[0] - val_size
-#batch_size = 1024
+val_size = 10000
+train_size = features.shape[0] - val_size
+batch_size = 1024
 
 root_name = 'dmin_reg'
 root_path = 'models/' + root_name
