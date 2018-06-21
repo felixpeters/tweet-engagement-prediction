@@ -36,7 +36,7 @@ def classification_model(input_dim, output_dim, emb_mat, seq_len, conv_layers=1,
     model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=metrics)
     return model
 
-def regression_model(input_dim, emb_mat, seq_len, conv_layers=1, filters=32, filter_size=3, dropout=0.5, fc_layers=1, fc_units=64, metrics=['acc']):
+def regression_model(input_dim, emb_mat, seq_len, conv_layers=1, filters=32, filter_size=3, dropout=0.5, fc_layers=1, fc_units=64, metrics=[]):
     """
     Compiles regression model which processes textual inputs using convolutional
     layers and then merges them with (normalized) auxiliary inputs.
