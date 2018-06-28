@@ -6,20 +6,21 @@ from keras.layers.recurrent import LSTM
 from keras.layers.normalization import BatchNormalization
 from keras.layers.merge import concatenate
 
-def classification_model(input_dim, output_dim, emb_mat, seq_len, lstm_layers=1, lstm_dim=32, ret_seq=True, fc_layers=1, fc_units=64, metrics=['acc']):
+def classification_model(input_dim, output_dim, emb_mat, seq_len, lstm_layers=1, lstm_dim=32, ret_seq=False, fc_layers=1, fc_units=64, metrics=['acc']):
     """
     Compiles classification model which processes textual inputs using LSTM 
     layers and then merges them with (normalized) auxiliary inputs.
     """
     seqs = Input(shape=(seq_len,), dtype='int32', name='text_input')
-    x = Embedding(emb_mat.shape[0], emb_mat.shape[1], weights=emb_mat, input_length=seq_len, trainable=True, name='word_embedding')(seqs)
+    x = Embedding(emb_mat.shape[0], emb_mat.shape[1], weights=[emb_mat], input_length=seq_len, trainable=True, name='word_embedding')(seqs)
     for i in range(1, lstm_layers + 1):
         lstm_name = 'lstm_' + str(i)
-        x = LSTM(lstm_dim, return_sequences=ret_seq, name=lstm_name)
-    flatten = Flatten(name='flatten')(x)
+        x = LSTM(lstm_dim, return_sequences=ret_seq, name=lstm_name)(x)
+    if ret_seq:
+        x = Flatten()(x)
     aux_input = Input(shape=(input_dim,), name='aux_input')
     norm_inputs = BatchNormalization(name='bn_aux')(aux_input)
-    x = concatenate([flatten, norm_inputs], name='comb_input')
+    x = concatenate([x, norm_inputs], name='comb_input')
     for i in range(1, fc_layers + 1):
         fc_name = 'fc_' + str(i)
         bn_name = 'bn_' + str(i)
@@ -30,20 +31,21 @@ def classification_model(input_dim, output_dim, emb_mat, seq_len, lstm_layers=1,
     model.compile(optimizer='Adam', loss='categorical_crossentropy', metrics=metrics)
     return model
 
-def regression_model(input_dim, emb_mat, seq_len, lstm_layers=1, lstm_dim=32, ret_seq=True, fc_layers=1, fc_units=64, metrics=['acc']):
+def regression_model(input_dim, emb_mat, seq_len, lstm_layers=1, lstm_dim=32, ret_seq=False, fc_layers=1, fc_units=64, metrics=[]):
     """
     Compiles regression model which processes textual inputs using LSTM 
     layers and then merges them with (normalized) auxiliary inputs.
     """
     seqs = Input(shape=(seq_len,), dtype='int32', name='text_input')
-    x = Embedding(emb_mat.shape[0], emb_mat.shape[1], weights=emb_mat, input_length=seq_len, trainable=True, name='word_embedding')(seqs)
+    x = Embedding(emb_mat.shape[0], emb_mat.shape[1], weights=[emb_mat], input_length=seq_len, trainable=True, name='word_embedding')(seqs)
     for i in range(1, lstm_layers + 1):
         lstm_name = 'lstm_' + str(i)
-        x = LSTM(lstm_dim, return_sequences=ret_seq, name=lstm_name)
-    flatten = Flatten(name='flatten')(x)
+        x = LSTM(lstm_dim, return_sequences=ret_seq, name=lstm_name)(x)
+    if ret_seq:
+        x = Flatten()(x)
     aux_input = Input(shape=(input_dim,), name='aux_input')
     norm_inputs = BatchNormalization(name='bn_aux')(aux_input)
-    x = concatenate([flatten, norm_inputs], name='comb_input')
+    x = concatenate([x, norm_inputs], name='comb_input')
     for i in range(1, fc_layers + 1):
         fc_name = 'fc_' + str(i)
         bn_name = 'bn_' + str(i)
