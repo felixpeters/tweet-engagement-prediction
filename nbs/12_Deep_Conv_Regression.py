@@ -19,14 +19,10 @@ labels = np.log1p(labels)
 
 # define configurations to test
 configs = [
-        {'name': '1c32n_2fc128n', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.5},
-        {'name': '1c32n_2fc128n_unreg', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.0},
-        {'name': '1c64n_2fc128n', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.5},
-        {'name': '1c64n_2fc128n_unreg', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.0},
-        {'name': '2c32n_2fc128n', 'conv_layers': 2, 'conv_filters': 32, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.5},
-        {'name': '2c32n_2fc128n_unreg', 'conv_layers': 2, 'conv_filters': 32, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.0},
-        {'name': '2c64n_2fc128n', 'conv_layers': 2, 'conv_filters': 64, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.5},
-        {'name': '2c64n_2fc128n_unreg', 'conv_layers': 2, 'conv_filters': 64, 'fc_layers': 2, 'fc_units': 128, 'dropout': 0.0},
+        {'name': '1c32n_1fc128n_02d', 'conv_layers': 1, 'conv_filters': 32, 'fc_layers': 1, 'fc_units': 128, 'dropout': 0.2},
+        {'name': '1c64n_1fc128n_02d', 'conv_layers': 1, 'conv_filters': 64, 'fc_layers': 1, 'fc_units': 128, 'dropout': 0.2},
+        {'name': '2c32n_1fc128n_02d', 'conv_layers': 2, 'conv_filters': 32, 'fc_layers': 1, 'fc_units': 128, 'dropout': 0.2},
+        {'name': '2c64n_1fc128n_02d', 'conv_layers': 2, 'conv_filters': 64, 'fc_layers': 1, 'fc_units': 128, 'dropout': 0.2},
 ]
 
 print("Testing a total of {} network architectures".format(len(configs)))
@@ -85,7 +81,7 @@ for config in configs:
     save_architecture(model, model_path + '.json')
 
     # load model callbacks
-    cbs = get_callbacks(model_name=model_name, log_dir=logging_path, stop_patience=6, lr_patience=3, verbose=1, emb_freq=5, emb_layers=['word_embedding'], emb_meta={'word_embedding': 'word_labels.tsv'})
+    cbs = get_callbacks(model_name=model_name, log_dir=logging_path, stop_patience=10, lr_patience=4, verbose=1, emb_freq=5, emb_layers=['word_embedding'], emb_meta={'word_embedding': 'word_labels.tsv'})
 
     # train model
     model.fit(

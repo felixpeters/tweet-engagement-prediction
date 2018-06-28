@@ -19,10 +19,14 @@ labels = np.log1p(labels)
 
 # define model configurations
 configs = [
-        {"name": "2c64n_lstm64d_2fc128n_02d", "dropout": 0.2},
-        {"name": "2c64n_lstm64d_2fc128n_03d", "dropout": 0.3},
-        {"name": "2c64n_lstm64d_2fc128n_04d", "dropout": 0.4},
-        {"name": "2c64n_lstm64d_2fc128n_05d", "dropout": 0.5},
+        {"name": "1c32n_lstm32d_1fc64n", "lstm_dim": 32, "conv_layers": 1, "conv_filters": 32, "fc_layers": 1, "fc_units": 64},
+        {"name": "1c64n_lstm32d_1fc64n", "lstm_dim": 32, "conv_layers": 1, "conv_filters": 64, "fc_layers": 1, "fc_units": 64},
+        {"name": "1c32n_lstm64d_1fc64n", "lstm_dim": 64, "conv_layers": 1, "conv_filters": 32, "fc_layers": 1, "fc_units": 64},
+        {"name": "1c32n_lstm32d_1fc128n", "lstm_dim": 32, "conv_layers": 1, "conv_filters": 32, "fc_layers": 1, "fc_units": 128},
+        {"name": "1c64n_lstm32d_1fc128n", "lstm_dim": 32, "conv_layers": 1, "conv_filters": 64, "fc_layers": 1, "fc_units": 128},
+        {"name": "1c64n_lstm64d_1fc64n", "lstm_dim": 64, "conv_layers": 1, "conv_filters": 64, "fc_layers": 1, "fc_units": 64},
+        {"name": "1c32n_lstm64d_1fc128n", "lstm_dim": 64, "conv_layers": 1, "conv_filters": 32, "fc_layers": 1, "fc_units": 128},
+        {"name": "1c64n_lstm64d_1fc128n", "lstm_dim": 64, "conv_layers": 1, "conv_filters": 64, "fc_layers": 1, "fc_units": 128},
 ]
 
 print("Testing a total of {} network architectures".format(len(configs)))
@@ -64,12 +68,12 @@ for config in configs:
             features.shape[1],
             emb_mat,
             seqs.shape[1],
-            lstm_dim=64,
-            conv_layers=2,
-            conv_filters=64,
-            fc_layers=2,
-            fc_units=128,
-            dropout=config['dropout'],
+            lstm_dim=config['lstm_dim'],
+            conv_layers=config['conv_layers'],
+            conv_filters=config['conv_filters'],
+            fc_layers=config['fc_layers'],
+            fc_units=config['fc_units'],
+            dropout=0.0,
             metrics=[r2],
     )
     save_architecture(model, model_path + '.json')
