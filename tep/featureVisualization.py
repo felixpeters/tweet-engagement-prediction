@@ -4,7 +4,7 @@ import numpy as np
 
 class FeatureVisualizer():
     """
-    Class for interpreting learned features in DNNs trained on NLP tasks.
+    Class for interpreting learned features in CNNs trained on NLP tasks.
     """ 
 
     def __init__(self, model, word_index):
@@ -20,12 +20,25 @@ class FeatureVisualizer():
 
         Args:
            seq: Example to analyze, given as sequence of word IDs
-           layer: Network layer to examine, identified by name
+           layer: Convolutional layer to examine, identified by name
            num_results: Integer stating how many results should be returned
         Returns:
-            Tuple activations, filters and corresponding words
+            Tuple of activations, filters and corresponding words
         """
-        return
+        activations = np.squeeze(self.get_activations(layer, np.expand_dims(seq, axis=0)))
+        sorted_activations = np.argsort(activations, axis=None)
+        xs, ys = np.unravel_index(sorted_activations, activations.shape)
+        sorted_idx = np.flip(list(zip(xs, ys)), axis=0)[:num_results]
+        results = []
+        for idx in sorted_idx:
+            result = {
+                'activation': activations[idx[0], idx[1]],
+                'kernel': idx[1],
+                'position': idx[0],
+                'words': self.get_words(seq, idx[0], 3),
+            }
+            results.append(result)
+        return results
 
     def analyze_neuron(self, batch, layer, neuron, num_results=10):
         """
@@ -34,7 +47,7 @@ class FeatureVisualizer():
 
         Args:
             batch: Examples to examine, given as array of sequences
-            layer: Network layer to examine, identified by name
+            layer: Convolutional layer to examine, identified by name
             neuron: Integer identifying the neuron to examine
             num_results: Integer stating how many results should be returned
         Returns:
@@ -69,7 +82,7 @@ class FeatureVisualizer():
         for word_id in word_ids:
             word = self.lookup_word(word_id)
             words.append(word)
-        return words
+        return " ".join(words)
 
     def lookup_word(self, word_id):
         return self.sorted_words[word_id]
