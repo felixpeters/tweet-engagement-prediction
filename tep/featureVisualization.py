@@ -2,9 +2,10 @@ import operator
 from keras.models import Model
 import numpy as np
 
-class FeatureVisualizer():
+class ConvLayerVisualizer():
     """
-    Class for interpreting learned features in CNNs trained on NLP tasks.
+    Class for interpreting learned features in the first convolutional layer
+    of a network trained on an NLP task.
     """ 
 
     def __init__(self, model, word_index):
@@ -55,6 +56,7 @@ class FeatureVisualizer():
             Tuple of activations, examples and corresponding words
         """
         kernel_size = self.model.get_layer(layer).kernel_size[0]
+        window_size = kernel_size
         activations = self.get_activations(layer, batch)
         neuron_activations = activations[:,:,neuron]
         sorted_activations = np.argsort(neuron_activations, axis=None)
@@ -65,6 +67,7 @@ class FeatureVisualizer():
             result = {
                 'activation': neuron_activations[idx[0], idx[1]],
                 'kernel': neuron,
+                'tweet': idx[0],
                 'position': idx[1],
                 'words': self.get_words(batch[idx[0]], idx[1], kernel_size),
             }
