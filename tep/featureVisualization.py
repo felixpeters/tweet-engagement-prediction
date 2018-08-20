@@ -25,6 +25,7 @@ class FeatureVisualizer():
         Returns:
             Tuple of activations, filters and corresponding words
         """
+        kernel_size = self.model.get_layer(layer).kernel_size[0]
         activations = np.squeeze(self.get_activations(layer, np.expand_dims(seq, axis=0)))
         sorted_activations = np.argsort(activations, axis=None)
         xs, ys = np.unravel_index(sorted_activations, activations.shape)
@@ -35,7 +36,7 @@ class FeatureVisualizer():
                 'activation': activations[idx[0], idx[1]],
                 'kernel': idx[1],
                 'position': idx[0],
-                'words': self.get_words(seq, idx[0], 3),
+                'words': self.get_words(seq, idx[0], kernel_size),
             }
             results.append(result)
         return results
@@ -53,7 +54,22 @@ class FeatureVisualizer():
         Returns:
             Tuple of activations, examples and corresponding words
         """
-        return
+        kernel_size = self.model.get_layer(layer).kernel_size[0]
+        activations = self.get_activations(layer, batch)
+        neuron_activations = activations[:,:,neuron]
+        sorted_activations = np.argsort(neuron_activations, axis=None)
+        xs, ys = np.unravel_index(sorted_activations, neuron_activations.shape)
+        sorted_idx = np.flip(list(zip(xs, ys)), axis=0)[:num_results]
+        results = []
+        for idx in sorted_idx:
+            result = {
+                'activation': neuron_activations[idx[0], idx[1]],
+                'kernel': neuron,
+                'position': idx[1],
+                'words': self.get_words(batch[idx[0]], idx[1], kernel_size),
+            }
+            results.append(result)
+        return results
 
     def get_activations(self, layer, batch):
         """
