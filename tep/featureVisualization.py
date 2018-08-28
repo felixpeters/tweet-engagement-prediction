@@ -88,19 +88,23 @@ class ConvLayerVisualizer():
         activations = temp_model.predict(batch)
         return activations
 
-    def get_words(self, sequence, position, kernel_size):
+    def get_words(self, sequence, position, kernel_size, ret_full=False, ret_string=True):
         """
         Lookup words for the given position in the given sequence using the
         word index.
         Sequence is zero-padded according to the given kernel size.
         """
         pad_size = int(np.floor(np.divide(kernel_size, 2)))
-        padded_seq = np.pad(sequence, pad_size, 'constant', constant_values=0)
-        word_ids = padded_seq[position:(position + kernel_size)]
+        sequence = np.pad(sequence, pad_size, 'constant', constant_values=0)
+        word_ids = sequence
+        if ret_full == False:
+            word_ids = sequence[position:(position + kernel_size)]
         words = []
         for word_id in word_ids:
             word = self.lookup_word(word_id)
             words.append(word)
+        if ret_string == False:
+            return words
         return " ".join(words)
 
     def lookup_word(self, word_id):
