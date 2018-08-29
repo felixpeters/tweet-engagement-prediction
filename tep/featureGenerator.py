@@ -18,8 +18,10 @@ class FeatureGenerator():
             ["Hashtag count", "hashtags"],
             ["Mention count", "mentions"],
             ["Tweet length", "length"],
+            ["Tweet sentiment", "sentiment"],
             ["Follower count", "followers"],
             ["Friend count", "friends"],
+            ["Follower friend ratio", "follower_friend_ratio"],
             ["Verified user", "verified"],
             ["User listings", "listings"],
             ["User tweet count", "tweets"],
@@ -27,8 +29,15 @@ class FeatureGenerator():
             ["User favorite count", "favorites"],
             ["User overall favorite frequency", "favorite_freq"],
             ["User account age", "account_age"],
+            ["Month of tweet creation", "month"],
+            ["Day of tweet creation", "day"],
+            ["Weekday of tweet creation", "weekday"],
             ["Hour of tweet creation", "hour"],
-            ["Quoted tweet", "quote"]
+            ["Minute of tweet creation", "minute"],
+            ["Quoted tweet", "quote"],
+            ["Quoted tweet popularity", "quoted_popularity"],
+            ["Quoted tweet sentiment", "quoted_sentiment"],
+            ["Reply tweet", "reply"],
         ]
 
     def structured_feature_map(self):
