@@ -2,6 +2,7 @@ from datetime import tzinfo, datetime
 import numpy as np
 from dateutil.parser import parse
 from .utils import UTC
+from .featureStore import *
 
 class FeatureGenerator():
     """
@@ -65,51 +66,30 @@ class FeatureGenerator():
         Returns:
             One-dimensional numpy array containing the simple features
         """
-        followers = (tweet.user.followers_count if tweet.user.followers_count != None else 0)
-        friends = (tweet.user.friends_count if tweet.user.friends_count != None else 0)
-        listings = (tweet.user.listed_count if tweet.user.listed_count != None else 0)
-        statuses = (tweet.user.statuses_count if tweet.user.statuses_count != None else 0)
-        favorites = (tweet.user.favourites_count if tweet.user.favourites_count != None else 0)
         features = [
-            len(tweet.urls),
-            len(tweet.hashtags),
-            len(tweet.user_mentions),
-            len(tweet.text),
-            followers,
-            friends,
-            (1 if tweet.user.verified else 0),
-            listings,
-            statuses,
-            float(statuses) / float(self.get_account_age(tweet.user)),
-            favorites,
-            float(favorites) / float(self.get_account_age(tweet.user)),
-            self.get_account_age(tweet.user),
-            self.get_creation_hour(tweet),
-            (1 if tweet.quoted_status != None else 0)
+            urls(tweet),
+            hashtags(tweet),
+            mentions(tweet),
+            length(tweet),
+            sentiment(tweet),
+            followers(tweet),
+            friends(tweet),
+            follower_friend_ratio(tweet),
+            verified(tweet),
+            listings(tweet),
+            statuses(tweet),
+            tweet_freq(tweet),
+            favorites(tweet),
+            fav_freq(tweet),
+            account_age(tweet),
+            creation_month(tweet),
+            creation_day(tweet),
+            creation_weekday(tweet),
+            creation_hour(tweet),
+            creation_minute(tweet),
+            quoted(tweet),
+            quoted_popularity(tweet),
+            quoted_sentiment(tweet),
+            replied(tweet),
         ]
         return features
-
-    def get_account_age(self, user):
-        """
-        Returns the account age in days
-
-        Args:
-            user: twitter.models.user instance
-        Returns:
-            Integer representing the account age in days
-        """
-        td = datetime.now(tz=UTC()) - parse(user.created_at)
-        return td.days
-    
-    def get_creation_hour(self, tweet):
-        """
-        Returns the hour the tweet was created in.
-
-        Args:
-            tweet: twitter.models.status instance
-        Returns:
-            Float representing the hour the tweet was created
-        """
-        date = parse(tweet.created_at)
-        return date.hour
-
