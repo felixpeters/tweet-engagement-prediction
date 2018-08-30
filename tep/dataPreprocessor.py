@@ -35,7 +35,7 @@ class DataPreprocessor():
             2D-numpy array with additional features for each tweet
         """
         fg = FeatureGenerator()
-        result = np.zeros((len(tweets), 15))
+        result = np.zeros((len(tweets), len(fg.structured_features)))
         for i, t in enumerate(tweets):
             features = fg.extract_structured_features_for_tweet(t)
             result[i] = features

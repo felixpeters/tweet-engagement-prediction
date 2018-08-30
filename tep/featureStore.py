@@ -9,23 +9,23 @@ def account_age(tweet):
     return td.days
 
 def creation_month(tweet):
-    date = parse(tweet.created_at) + timedelta(seconds=tweet.user.utc_offset)
+    date = parse(tweet.created_at) + timedelta(seconds=(tweet.user.utc_offset or 0))
     return date.month
 
 def creation_day(tweet):
-    date = parse(tweet.created_at) + timedelta(seconds=tweet.user.utc_offset)
+    date = parse(tweet.created_at) + timedelta(seconds=(tweet.user.utc_offset or 0))
     return date.day
 
 def creation_weekday(tweet):
-    date = parse(tweet.created_at) + timedelta(seconds=tweet.user.utc_offset)
+    date = parse(tweet.created_at) + timedelta(seconds=(tweet.user.utc_offset or 0))
     return date.weekday()
     
 def creation_hour(tweet):
-    date = parse(tweet.created_at) + timedelta(seconds=tweet.user.utc_offset)
+    date = parse(tweet.created_at) + timedelta(seconds=(tweet.user.utc_offset or 0))
     return date.hour
 
 def creation_minute(tweet):
-    date = parse(tweet.created_at) + timedelta(seconds=tweet.user.utc_offset)
+    date = parse(tweet.created_at) + timedelta(seconds=(tweet.user.utc_offset or 0))
     return date.minute
 
 def followers(tweet):
@@ -38,10 +38,10 @@ def friends(tweet):
 
 def follower_friend_ratio(tweet):
     ratio = 0.0
-    followers = followers(tweet)
-    friends = friends(tweet)
-    if friends != 0:
-        ratio = float(followers) / float(friends)
+    flw = followers(tweet)
+    frd = friends(tweet)
+    if frd != 0:
+        ratio = float(flw) / float(frd)
     return ratio
 
 def listings(tweet):
@@ -79,7 +79,7 @@ def quoted(tweet):
 def quoted_sentiment(tweet):
     sentiment = 0.0
     if tweet.quoted_status != None:
-        sentiment = TextBlob(tweet.quoted_status.text).sentiment
+        sentiment, _ = TextBlob(tweet.quoted_status.text).sentiment
     return sentiment
 
 def quoted_popularity(tweet):
