@@ -13,3 +13,4 @@ models/lin_class/*
 models/dffn_class/*
 models/dffn_reg/*
 !data/user_ids.txt
+src/*
