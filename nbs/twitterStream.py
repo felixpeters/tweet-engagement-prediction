@@ -7,10 +7,10 @@ from termcolor import colored
 from tep.accountCollector import AccountCollector
 
 # override tweepy.StreamListener to add logic
-class PrintListener(tweepy.StreamListener):
+class PersistListener(tweepy.StreamListener):
 
     def __init__(self, conn):
-        super(PrintListener, self).__init__()
+        super(PersistListener, self).__init__()
         self.conn = conn
 
     def save_tweet(self, status):
@@ -42,7 +42,7 @@ ACCESS_TOKEN_SECRET = os.getenv("TWITTER_ACCESS_TOKEN_SECRET")
 USER_IDS_PATH = "data/user_ids.txt"
 DB_PATH = "tweets.db"
 CREATE_TABLE_SQL = """CREATE TABLE IF NOT EXISTS tweets (
-id integer PRIMARY KEY,
+tweet_id integer PRIMARY KEY,
 text text NOT NULL,
 user text NOT NULL
 );"""
@@ -63,7 +63,7 @@ users = ac.load_user_ids(fname=USER_IDS_PATH)
 users = [str(u) for u in users]
 
 # create stream and listener
-listener = PrintListener(conn)
+listener = PersistListener(conn)
 stream = tweepy.Stream(auth=api.auth, listener=listener)
 
 # run stream
