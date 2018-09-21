@@ -3,7 +3,7 @@ from twitter import Api, TwitterError
 from dotenv import load_dotenv, find_dotenv
 from termcolor import colored
 from tep.accountCollector import AccountCollector
-from .database import create_connection, create_tweets_table
+from .database import create_connection, create_tweets_table, create_retweets_table, create_quotes_table, create_replies_table
 from .processing import process_tweet, process_engagement
 
 # define constants
@@ -12,8 +12,8 @@ CONSUMER_KEY = os.getenv("TWITTER_CONSUMER_KEY")
 CONSUMER_SECRET = os.getenv("TWITTER_CONSUMER_SECRET") 
 ACCESS_TOKEN_KEY = os.getenv("TWITTER_ACCESS_TOKEN_KEY")
 ACCESS_TOKEN_SECRET = os.getenv("TWITTER_ACCESS_TOKEN_SECRET")
-USER_GROUP_PATH = "data/user_ids.txt"
-DB_PATH = "tweets.db"
+USER_GROUP_PATH = os.getenv("USER_GROUP_PATH") or "data/user_ids.txt"
+DB_PATH = os.getenv("DB_PATH") or "tweets.db"
 
 def handle(tweet):
     user_id = tweet['user']['id']
@@ -30,8 +30,11 @@ api = Api(CONSUMER_KEY,
 
 # setup DB connection
 conn = create_connection(DB_PATH)
-# create table
+# create tables
 create_tweets_table(conn)
+create_retweets_table(conn)
+create_quotes_table(conn)
+create_replies_table(conn)
 
 # get user ids
 ac = AccountCollector()
