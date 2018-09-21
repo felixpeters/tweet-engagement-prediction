@@ -2,9 +2,10 @@ import os
 from twitter import Api, TwitterError
 from dotenv import load_dotenv, find_dotenv
 from termcolor import colored
+from sqlite3 import IntegrityError
 from tep.accountCollector import AccountCollector
 from .database import create_connection, create_tweets_table, create_retweets_table, create_quotes_table, create_replies_table
-from .processing import process_tweet, process_engagement
+from .processing import TweetProcessor
 
 # define constants
 load_dotenv(find_dotenv())
@@ -14,13 +15,6 @@ ACCESS_TOKEN_KEY = os.getenv("TWITTER_ACCESS_TOKEN_KEY")
 ACCESS_TOKEN_SECRET = os.getenv("TWITTER_ACCESS_TOKEN_SECRET")
 USER_GROUP_PATH = os.getenv("USER_GROUP_PATH") or "data/user_ids.txt"
 DB_PATH = os.getenv("DB_PATH") or "tweets.db"
-
-def handle(tweet):
-    user_id = tweet['user']['id']
-    if user_id in users:
-        process_tweet(tweet)
-    else:
-        process_engagement(tweet)
 
 # setup API connection
 api = Api(CONSUMER_KEY,
@@ -36,10 +30,20 @@ create_retweets_table(conn)
 create_quotes_table(conn)
 create_replies_table(conn)
 
+# create tweet processor
+proc = TweetProcessor(conn)
+
 # get user ids
 ac = AccountCollector()
 users = ac.load_user_ids(fname=USER_GROUP_PATH)
 users_str = [str(u) for u in users]
+
+def handle(tweet):
+    user_id = tweet['user']['id']
+    if user_id in users:
+        proc.process_tweet(tweet)
+    else:
+        proc.process_engagement(tweet)
 
 # run stream
 def main():
@@ -49,10 +53,14 @@ def main():
             handle(tweet)
         except KeyError as err:
             print(colored('KeyError', 'red'), err)
+        except ValueError as err:
+            print(colored('ValueError', 'red'), err)
         except TwitterError as err:
             print(colored('TwitterError', 'red'), err)
-        except:
-            print(colored('Unknown error', 'red'))
+        except IntegrityError as err:
+            print(colored('ValueError', 'red'), err)
+#        except:
+#            print(colored('Unknown error', 'red'))
 
 if __name__ == '__main__':
     main()
