@@ -8,6 +8,9 @@ class TweetProcessor():
         self.conn = conn
 
     def process_tweet(self, tweet):
+        # discard native retweets from user group
+        if tweet.retweeted_status != None:
+            return
         tweet = Tweet(tweet)
         save_tweet(self.conn, tweet)
         print(tweet)
