@@ -65,10 +65,19 @@ class Retweet():
 
     def __init__(self, status):
         self.retweet_id = status['id']
+        self.retweeted_status_id = status['retweeted_status']['id']
+        self.created_at = status['created_at']
         self.text = status['text']
         self.user_id = status['user']['id']
         self.user_name = status['user']['screen_name']
-        self.retweeted_status_id = status['retweeted_status']['id']
+        self.user_created_at = status['user']['created_at']
+        self.user_followers = status['user']['followers']
+        self.user_frieds = status['user']['friends']
+        self.user_statuses = status['user']['statuses_count']
+        self.user_listings = status['user']['listed_count']
+        self.user_verified = status['user']['verified']
+        self.user_favorites = status['user']['favourites_count']
+        self.user_utc_offset = status['user']['utc_offset']
 
     def __repr__(self):
         return colored(self.user_name, 'yellow') + ' ' + self.text
@@ -76,9 +85,18 @@ class Retweet():
     def as_tuple(self):
         return (self.retweet_id,
                 self.retweeted_status_id,
+                self.created_at,
                 self.text,
                 self.user_id,
-                self.user_name)
+                self.user_name,
+                self.user_created_at,
+                self.user_followers,
+                self.user_frieds,
+                self.user_statuses,
+                self.user_listings,
+                self.user_verified,
+                self.user_favorites,
+                self.user_utc_offset)
 
 class Quote():
 
