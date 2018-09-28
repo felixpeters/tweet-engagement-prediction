@@ -105,7 +105,7 @@ class Quote():
 
     def __init__(self, status):
         self.quote_id = status_id(status)
-        self.quoted_status_id = quoted_status_id(status)
+        self.quoted_status_id = quote_id(status)
         self.created_at = tweet_creation_date(status)
         self.text = text(status)
         self.lang = lang(status)
@@ -202,3 +202,20 @@ class Reply():
                 self.user_verified,
                 self.user_favorites,
                 self.user_utc_offset)
+
+class StreamError():
+
+    def __init__(self, err_type, timestamp, message, tweet_id=None):
+        self.err_type = err_type
+        self.timestamp = timestamp
+        self.message = message
+        self.tweet_id = tweet_id
+
+    def __repr__(self):
+        err = {
+            'type': self.err_type,
+            'time': self.timestamp,
+            'message': self.message,
+            'tweet': self.tweet_id,
+        }
+        return err

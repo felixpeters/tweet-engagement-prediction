@@ -1,4 +1,5 @@
 import os
+import datetime
 from twitter import Api, TwitterError
 from dotenv import load_dotenv, find_dotenv
 from termcolor import colored
@@ -6,6 +7,7 @@ from sqlite3 import IntegrityError
 from tep.accountCollector import AccountCollector
 from .database import create_connection, create_tweets_table, create_retweets_table, create_quotes_table, create_replies_table
 from .processing import TweetProcessor
+from .models import StreamError
 
 # define constants
 load_dotenv(find_dotenv())
@@ -39,11 +41,19 @@ users = ac.load_user_ids(fname=USER_GROUP_PATH)
 users_str = [str(u) for u in users]
 
 def handle(tweet):
+    if 'user' not in tweet:
+        return
     user_id = tweet['user']['id']
     if user_id in users:
         proc.process_tweet(tweet)
     else:
         proc.process_engagement(tweet)
+
+def handle_error(err_type, err, tweet):
+    tid = (tweet['id'] if ('id' in tweet) else None)
+    err = StreamError('KeyError', datetime.datetime.now(), err, tid)
+    print(err)
+
 
 # run stream
 def main():
@@ -52,15 +62,17 @@ def main():
         try:
             handle(tweet)
         except KeyError as err:
-            print(colored('KeyError', 'red'), err)
+            handle_error('KeyError', err, tweet)
         except ValueError as err:
-            print(colored('ValueError', 'red'), err)
+            handle_error('ValueError', err, tweet)
+        except AttributeError as err:
+            handle_error('AttributeError', err, tweet)
         except TwitterError as err:
-            print(colored('TwitterError', 'red'), err)
+            handle_error('TwitterError', err, tweet)
         except IntegrityError as err:
-            print(colored('ValueError', 'red'), err)
-#        except:
-#            print(colored('Unknown error', 'red'))
+            handle_error('IntegrityError', err, tweet)
+        except:
+            handle_error('UnknownError', None, tweet)
 
 if __name__ == '__main__':
     main()

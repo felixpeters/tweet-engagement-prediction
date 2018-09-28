@@ -4,7 +4,7 @@ def status_id(status):
 def retweeted_status_id(status):
     return status['retweeted_status']['id']
 
-def quoted_status_id(status):
+def quote_id(status):
     return status['quoted_status']['id']
 
 def tweet_creation_date(status):
@@ -53,7 +53,7 @@ def quoted_user_id(status):
     return uid
 
 def is_reply(status):
-    reply = (True if ('in_reply_to_status_id' in status and (status['in_reply_to_status_id' != None])) else False)
+    reply = (True if ('in_reply_to_status_id' in status and (status['in_reply_to_status_id'] != None)) else False)
     return reply
 
 def replied_status_id(status):
