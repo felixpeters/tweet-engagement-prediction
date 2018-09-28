@@ -41,7 +41,7 @@ user_statuses integer NOT NULL,
 user_listings integer NOT NULL,
 user_verified boolean NOT NULL,
 user_favorites integer NOT NULL,
-user_utc_offset integer NOT NULL
+user_utc_offset integer NOT NULL,
 FOREIGN KEY(retweeted_status_id) REFERENCES tweets(tweet_id)
 );"""
 CREATE_QUOTES_TABLE = """CREATE TABLE IF NOT EXISTS quotes (
@@ -65,7 +65,7 @@ user_statuses integer NOT NULL,
 user_listings integer NOT NULL,
 user_verified boolean NOT NULL,
 user_favorites integer NOT NULL,
-user_utc_offset integer NOT NULL
+user_utc_offset integer NOT NULL,
 FOREIGN KEY (quoted_status_id) REFERENCES tweets(tweet_id)
 );"""
 CREATE_REPLIES_TABLE = """CREATE TABLE IF NOT EXISTS replies (
@@ -89,7 +89,7 @@ user_statuses integer NOT NULL,
 user_listings integer NOT NULL,
 user_verified boolean NOT NULL,
 user_favorites integer NOT NULL,
-user_utc_offset integer NOT NULL
+user_utc_offset integer NOT NULL,
 FOREIGN KEY (replied_status_id) REFERENCES tweets(tweet_id)
 );"""
 INSERT_TWEET = """

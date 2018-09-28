@@ -1,4 +1,5 @@
 from termcolor import colored
+from .features import *
 
 class Tweet():
 
@@ -9,10 +10,10 @@ class Tweet():
         self.lang = status['lang']
         self.favorite_count = status['favorite_count']
         self.retweet_count = status['retweet_count']
-        self.hashtag_count = len(status['hashtags'])
-        self.url_count = len(status['urls'])
-        self.mention_count = len(status['user_mentions'])
-        self.media_count = len(status['media'])
+        self.hashtag_count = (len(status['hashtags']) if ('hashtags' in status) else 0)
+        self.url_count = (len(status['urls']) if ('urls' in status) else 0)
+        self.mention_count = (len(status['user_mentions']) if ('user_mentions' in status) else 0)
+        self.media_count = (len(status['media']) if ('media' in status) else 0)
         self.quoted_status = (True if status['quoted_status'] != None else False)
         self.quoted_status_id = (status['quoted_status_id'] if status['quoted_status_id'] != None else None)
         self.quoted_user_id = (status['quoted_status']['user']['id'] if status['quoted_status'] != None else None)
@@ -22,13 +23,13 @@ class Tweet():
         self.user_id = status['user']['id']
         self.user_name = status['user']['screen_name']
         self.user_created_at = status['user']['created_at']
-        self.user_followers = status['user']['followers']
-        self.user_frieds = status['user']['friends']
+        self.user_followers = status['user']['followers_count']
+        self.user_friends = status['user']['friends_count']
         self.user_statuses = status['user']['statuses_count']
         self.user_listings = status['user']['listed_count']
         self.user_verified = status['user']['verified']
         self.user_favorites = status['user']['favourites_count']
-        self.user_utc_offset = status['user']['utc_offset']
+        self.user_utc_offset = (status['user']['utc_offset'] or 0)
 
     def __repr__(self):
         return colored(self.user_name, 'blue') + ' ' + self.text
@@ -54,7 +55,7 @@ class Tweet():
                 self.user_name,
                 self.user_created_at,
                 self.user_followers,
-                self.user_frieds,
+                self.user_friends,
                 self.user_statuses,
                 self.user_listings,
                 self.user_verified,
@@ -72,13 +73,13 @@ class Retweet():
         self.user_id = status['user']['id']
         self.user_name = status['user']['screen_name']
         self.user_created_at = status['user']['created_at']
-        self.user_followers = status['user']['followers']
-        self.user_frieds = status['user']['friends']
+        self.user_followers = status['user']['followers_count']
+        self.user_friends = status['user']['friends_count']
         self.user_statuses = status['user']['statuses_count']
         self.user_listings = status['user']['listed_count']
         self.user_verified = status['user']['verified']
         self.user_favorites = status['user']['favourites_count']
-        self.user_utc_offset = status['user']['utc_offset']
+        self.user_utc_offset = (status['user']['utc_offset'] or 0)
 
     def __repr__(self):
         return colored(self.user_name, 'yellow') + ' ' + self.text
@@ -93,7 +94,7 @@ class Retweet():
                 self.user_name,
                 self.user_created_at,
                 self.user_followers,
-                self.user_frieds,
+                self.user_friends,
                 self.user_statuses,
                 self.user_listings,
                 self.user_verified,
@@ -110,20 +111,20 @@ class Quote():
         self.lang = status['lang']
         self.favorite_count = status['favorite_count']
         self.retweet_count = status['retweet_count']
-        self.hashtag_count = len(status['hashtags'])
-        self.url_count = len(status['urls'])
-        self.mention_count = len(status['user_mentions'])
-        self.media_count = len(status['media'])
+        self.hashtag_count = (len(status['hashtags']) if ('hashtags' in status) else 0)
+        self.url_count = (len(status['urls']) if ('urls' in status) else 0)
+        self.mention_count = (len(status['user_mentions']) if ('user_mentions' in status) else 0)
+        self.media_count = (len(status['media']) if ('media' in status) else 0)
         self.user_id = status['user']['id']
         self.user_name = status['user']['screen_name']
         self.user_created_at = status['user']['created_at']
-        self.user_followers = status['user']['followers']
-        self.user_frieds = status['user']['friends']
+        self.user_followers = status['user']['followers_count']
+        self.user_friends = status['user']['friends_count']
         self.user_statuses = status['user']['statuses_count']
         self.user_listings = status['user']['listed_count']
         self.user_verified = status['user']['verified']
         self.user_favorites = status['user']['favourites_count']
-        self.user_utc_offset = status['user']['utc_offset']
+        self.user_utc_offset = (status['user']['utc_offset'] or 0)
 
     def __repr__(self):
         return colored(self.user_name, 'cyan') + ' ' + self.text
@@ -144,7 +145,7 @@ class Quote():
                 self.user_name,
                 self.user_created_at,
                 self.user_followers,
-                self.user_frieds,
+                self.user_friends,
                 self.user_statuses,
                 self.user_listings,
                 self.user_verified,
@@ -161,20 +162,20 @@ class Reply():
         self.lang = status['lang']
         self.favorite_count = status['favorite_count']
         self.retweet_count = status['retweet_count']
-        self.hashtag_count = len(status['hashtags'])
-        self.url_count = len(status['urls'])
-        self.mention_count = len(status['user_mentions'])
-        self.media_count = len(status['media'])
+        self.hashtag_count = (len(status['hashtags']) if ('hashtags' in status) else 0)
+        self.url_count = (len(status['urls']) if ('urls' in status) else 0)
+        self.mention_count = (len(status['user_mentions']) if ('user_mentions' in status) else 0)
+        self.media_count = (len(status['media']) if ('media' in status) else 0)
         self.user_id = status['user']['id']
         self.user_name = status['user']['screen_name']
         self.user_created_at = status['user']['created_at']
-        self.user_followers = status['user']['followers']
-        self.user_frieds = status['user']['friends']
+        self.user_followers = status['user']['followers_count']
+        self.user_friends = status['user']['friends_count']
         self.user_statuses = status['user']['statuses_count']
         self.user_listings = status['user']['listed_count']
         self.user_verified = status['user']['verified']
         self.user_favorites = status['user']['favourites_count']
-        self.user_utc_offset = status['user']['utc_offset']
+        self.user_utc_offset = (status['user']['utc_offset'] or 0)
 
     def __repr__(self):
         return colored(self.user_name, 'magenta') + ' ' + self.text
@@ -195,7 +196,7 @@ class Reply():
                 self.user_name,
                 self.user_created_at,
                 self.user_followers,
-                self.user_frieds,
+                self.user_friends,
                 self.user_statuses,
                 self.user_listings,
                 self.user_verified,
