@@ -68,6 +68,7 @@ class Retweet():
         self.retweeted_status_id = status['retweeted_status']['id']
         self.created_at = status['created_at']
         self.text = status['text']
+        self.lang = status['lang']
         self.user_id = status['user']['id']
         self.user_name = status['user']['screen_name']
         self.user_created_at = status['user']['created_at']
@@ -87,6 +88,7 @@ class Retweet():
                 self.retweeted_status_id,
                 self.created_at,
                 self.text,
+                self.lang,
                 self.user_id,
                 self.user_name,
                 self.user_created_at,

@@ -31,6 +31,7 @@ retweet_id integer PRIMARY KEY,
 retweeted_status_id integer,
 created_at text NOT NULL,
 text text NOT NULL,
+lang text,
 user_id integer NOT NULL,
 user_name text NOT NULL,
 user_created_at text NOT NULL,
@@ -91,7 +92,98 @@ user_favorites integer NOT NULL,
 user_utc_offset integer NOT NULL
 FOREIGN KEY (replied_status_id) REFERENCES tweets(tweet_id)
 );"""
-INSERT_TWEET = ""
-INSERT_RETWEET = ""
-INSERT_QUOTE = ""
-INSERT_REPLY = ""
+INSERT_TWEET = """
+INSERT INTO tweets(
+tweet_id, 
+created_at, 
+text, 
+lang, 
+favorite_count,
+retweet_count,
+hashtag_count,
+url_count,
+mention_count,
+media_count,
+quoted_status,
+quoted_status_id,
+quoted_user_id,
+replied_status,
+replied_status_id,
+replied_user_id,
+user_id,
+user_name,
+user_created_at,
+user_followers,
+user_friends,
+user_statuses,
+user_listings,
+user_verified,
+user_favorites,
+user_utc_offset) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+"""
+INSERT_RETWEET = """
+INSERT INTO retweets(
+retweet_id,
+retweeted_status_id,
+created_at,
+text,
+lang,
+user_id,
+user_name,
+user_created_at,
+user_followers,
+user_friends,
+user_statuses,
+user_listings,
+user_verified,
+user_favorites,
+user_utc_offset) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+"""
+INSERT_QUOTE = """
+INSERT INTO quotes(
+quote_id,
+quoted_status_id,
+created_at,
+text, 
+lang, 
+favorite_count,
+retweet_count,
+hashtag_count,
+url_count,
+mention_count,
+media_count,
+user_id,
+user_name,
+user_created_at,
+user_followers,
+user_friends,
+user_statuses,
+user_listings,
+user_verified,
+user_favorites,
+user_utc_offset) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+"""
+INSERT_REPLY = """
+INSERT INTO replies(
+reply_id,
+replied_status_id,
+created_at,
+text, 
+lang, 
+favorite_count,
+retweet_count,
+hashtag_count,
+url_count,
+mention_count,
+media_count,
+user_id,
+user_name,
+user_created_at,
+user_followers,
+user_friends,
+user_statuses,
+user_listings,
+user_verified,
+user_favorites,
+user_utc_offset) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);
+"""
