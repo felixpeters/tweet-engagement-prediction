@@ -1,5 +1,11 @@
-def id(status):
+def status_id(status):
     return status['id']
+
+def retweeted_status_id(status):
+    return status['retweeted_status']['id']
+
+def quoted_status_id(status):
+    return status['quoted_status']['id']
 
 def tweet_creation_date(status):
     return status['created_at']
