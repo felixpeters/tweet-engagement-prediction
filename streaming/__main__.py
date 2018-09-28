@@ -49,9 +49,9 @@ def handle(tweet):
     else:
         proc.process_engagement(tweet)
 
-def handle_error(err_type, err, tweet):
+def handle_error(err_type, msg, tweet):
     tid = (tweet['id'] if ('id' in tweet) else None)
-    err = StreamError('KeyError', datetime.datetime.now(), err, tid)
+    err = StreamError(err_type, datetime.datetime.now(), msg, tid)
     print(err)
 
 

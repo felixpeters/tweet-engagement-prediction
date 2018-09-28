@@ -13,20 +13,16 @@ class TweetProcessor():
             return
         tweet = Tweet(tweet)
         save_tweet(self.conn, tweet)
-        print(tweet)
 
     def process_engagement(self, tweet):
         if 'retweeted_status' in tweet:
             retweet = Retweet(tweet)
             save_retweet(self.conn, retweet)
-            print(retweet)
         elif 'quoted_status' in tweet:
             quote = Quote(tweet)
             save_quote(self.conn, quote)
-            print(quote)
         elif 'in_reply_to_status_id' in tweet:
             reply = Reply(tweet)
             save_reply(self.conn, reply)
-            print(reply)
         else:
-            print(colored('Unknown tweet type', 'red'), tweet['id'])
+            return

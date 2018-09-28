@@ -1,3 +1,4 @@
+import json
 from termcolor import colored
 from .features import *
 
@@ -214,8 +215,8 @@ class StreamError():
     def __repr__(self):
         err = {
             'type': self.err_type,
-            'time': self.timestamp,
-            'message': self.message,
+            'time': str(self.timestamp),
+            'message': str(self.message),
             'tweet': self.tweet_id,
         }
-        return err
+        return json.dumps(err)
