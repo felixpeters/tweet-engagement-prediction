@@ -57,7 +57,6 @@ def handle_error(err_type, msg, tweet):
 
 # run stream
 def main():
-    print(colored("Streaming tweets of {} users".format(len(users)), 'red'))
     for tweet in api.GetStreamFilter(follow=users_str):
         try:
             handle(tweet)

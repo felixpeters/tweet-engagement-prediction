@@ -4,7 +4,6 @@ from .queries import CREATE_TWEETS_TABLE, CREATE_RETWEETS_TABLE, CREATE_QUOTES_T
 
 def create_connection(path):
     conn = sqlite3.connect(path)
-    print("Connected to SQLite database created in {}".format(path))
     return conn
 
 def create_tweets_table(conn):
