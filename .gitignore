@@ -2,6 +2,8 @@
 .DS_Store
 *.pyc
 *.swp
+*.db
+*.log
 nbs/.ipynb_checkpoints/*
 tep/__pycache__/*
 data/*
