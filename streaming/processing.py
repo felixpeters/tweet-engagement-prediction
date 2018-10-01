@@ -1,4 +1,3 @@
-from termcolor import colored
 from .models import Tweet, Retweet, Reply, Quote
 from .database import save_tweet, save_retweet, save_quote, save_reply
 

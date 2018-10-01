@@ -1,5 +1,4 @@
 import json
-from termcolor import colored
 from .features import *
 
 class Tweet():
@@ -33,7 +32,7 @@ class Tweet():
         self.user_utc_offset = user_utc_offset(status)
 
     def __repr__(self):
-        return colored(self.user_name, 'blue') + ' ' + self.text
+        return self.user_name + ': ' + self.text
 
     def as_tuple(self):
         return (self.tweet_id,
@@ -83,7 +82,7 @@ class Retweet():
         self.user_utc_offset = user_utc_offset(status)
 
     def __repr__(self):
-        return colored(self.user_name, 'yellow') + ' ' + self.text
+        return self.user_name + ': ' + self.text
 
     def as_tuple(self):
         return (self.retweet_id,
@@ -128,7 +127,7 @@ class Quote():
         self.user_utc_offset = user_utc_offset(status)
 
     def __repr__(self):
-        return colored(self.user_name, 'cyan') + ' ' + self.text
+        return self.user_name + ': ' + self.text
 
     def as_tuple(self):
         return (self.quote_id,
@@ -179,7 +178,7 @@ class Reply():
         self.user_utc_offset = user_utc_offset(status)
 
     def __repr__(self):
-        return colored(self.user_name, 'magenta') + ' ' + self.text
+        return self.user_name + ': ' + self.text
 
     def as_tuple(self):
         return (self.reply_id,

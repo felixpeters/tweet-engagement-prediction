@@ -2,7 +2,6 @@ import os
 import datetime
 from twitter import Api, TwitterError
 from dotenv import load_dotenv, find_dotenv
-from termcolor import colored
 from sqlite3 import IntegrityError
 from tep.accountCollector import AccountCollector
 from .database import create_connection, create_tweets_table, create_retweets_table, create_quotes_table, create_replies_table
