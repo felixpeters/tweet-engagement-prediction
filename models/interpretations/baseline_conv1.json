@@ -1,0 +1,3970 @@
+{
+    "Filter_0": [
+        {
+            "activation": 2.3111870288848877,
+            "tweet": 7855,
+            "position": 13,
+            "words": "self-serve kiosks spell"
+        },
+        {
+            "activation": 2.1843161582946777,
+            "tweet": 4802,
+            "position": 15,
+            "words": "omedetou gozaimasu !"
+        },
+        {
+            "activation": 2.098314046859741,
+            "tweet": 1948,
+            "position": 29,
+            "words": "di lusso deli"
+        },
+        {
+            "activation": 2.0734424591064453,
+            "tweet": 8465,
+            "position": 24,
+            "words": "uni <allcaps> ovr"
+        },
+        {
+            "activation": 1.9772744178771973,
+            "tweet": 7876,
+            "position": 16,
+            "words": "conoco phillips' rufus"
+        },
+        {
+            "activation": 1.8883742094039917,
+            "tweet": 1364,
+            "position": 31,
+            "words": "headache <url> <unknown>"
+        },
+        {
+            "activation": 1.8710006475448608,
+            "tweet": 1589,
+            "position": 21,
+            "words": "buenas tardes, ya"
+        },
+        {
+            "activation": 1.7931700944900513,
+            "tweet": 5208,
+            "position": 28,
+            "words": "korbo lorbo jeetbo"
+        },
+        {
+            "activation": 1.768639087677002,
+            "tweet": 7833,
+            "position": 7,
+            "words": "<user> hi ashley"
+        },
+        {
+            "activation": 1.757237195968628,
+            "tweet": 5680,
+            "position": 19,
+            "words": "yeh hai aapka"
+        }
+    ],
+    "Filter_1": [
+        {
+            "activation": 2.634052038192749,
+            "tweet": 2292,
+            "position": 26,
+            "words": "eating ? noodles"
+        },
+        {
+            "activation": 2.407710075378418,
+            "tweet": 2728,
+            "position": 15,
+            "words": "cinnamon sticky buns"
+        },
+        {
+            "activation": 2.2000811100006104,
+            "tweet": 8286,
+            "position": 25,
+            "words": "oils ? pick"
+        },
+        {
+            "activation": 2.1665897369384766,
+            "tweet": 8465,
+            "position": 24,
+            "words": "uni <allcaps> ovr"
+        },
+        {
+            "activation": 2.136054515838623,
+            "tweet": 319,
+            "position": 26,
+            "words": "tamben te amo"
+        },
+        {
+            "activation": 2.0624115467071533,
+            "tweet": 3792,
+            "position": 21,
+            "words": "contain any preservatives"
+        },
+        {
+            "activation": 2.0514369010925293,
+            "tweet": 7323,
+            "position": 18,
+            "words": "caeser <allcaps> salad"
+        },
+        {
+            "activation": 1.9969828128814697,
+            "tweet": 2251,
+            "position": 18,
+            "words": "decontamination area where"
+        },
+        {
+            "activation": 1.9354143142700195,
+            "tweet": 5239,
+            "position": 22,
+            "words": "bacon ranch fried"
+        },
+        {
+            "activation": 1.9226304292678833,
+            "tweet": 9807,
+            "position": 22,
+            "words": "get super fried"
+        }
+    ],
+    "Filter_2": [
+        {
+            "activation": 1.5782912969589233,
+            "tweet": 7964,
+            "position": 14,
+            "words": "<unknown> l'shana tovah"
+        },
+        {
+            "activation": 1.4904093742370605,
+            "tweet": 7468,
+            "position": 29,
+            "words": "mantooth would've pre-ordered"
+        },
+        {
+            "activation": 1.4754890203475952,
+            "tweet": 2281,
+            "position": 16,
+            "words": "<unknown> governor hassan"
+        },
+        {
+            "activation": 1.442450761795044,
+            "tweet": 402,
+            "position": 28,
+            "words": "ceo <allcaps>, echosign"
+        },
+        {
+            "activation": 1.4352996349334717,
+            "tweet": 7964,
+            "position": 15,
+            "words": "l'shana tovah !"
+        },
+        {
+            "activation": 1.3860515356063843,
+            "tweet": 4802,
+            "position": 15,
+            "words": "omedetou gozaimasu !"
+        },
+        {
+            "activation": 1.2574052810668945,
+            "tweet": 5759,
+            "position": 27,
+            "words": "sticking middle-class americans"
+        },
+        {
+            "activation": 1.233167052268982,
+            "tweet": 9280,
+            "position": 18,
+            "words": "chaplain sharad creasman,"
+        },
+        {
+            "activation": 1.220155954360962,
+            "tweet": 3127,
+            "position": 21,
+            "words": "seasoned loin filets"
+        },
+        {
+            "activation": 1.1920642852783203,
+            "tweet": 7465,
+            "position": 22,
+            "words": "pope francis decried"
+        }
+    ],
+    "Filter_3": [
+        {
+            "activation": 2.7459449768066406,
+            "tweet": 2482,
+            "position": 29,
+            "words": "<hashtag> de vos"
+        },
+        {
+            "activation": 2.7459449768066406,
+            "tweet": 1412,
+            "position": 22,
+            "words": "<hashtag> de vos"
+        },
+        {
+            "activation": 2.6739158630371094,
+            "tweet": 335,
+            "position": 28,
+            "words": "photooftheday <hashtag> harleydavidson"
+        },
+        {
+            "activation": 2.0774261951446533,
+            "tweet": 3138,
+            "position": 24,
+            "words": "on de vos"
+        },
+        {
+            "activation": 1.970318078994751,
+            "tweet": 9913,
+            "position": 27,
+            "words": "<hashtag> no purch"
+        },
+        {
+            "activation": 1.9469211101531982,
+            "tweet": 4489,
+            "position": 23,
+            "words": "<hashtag> childhoodcancer ."
+        },
+        {
+            "activation": 1.8770740032196045,
+            "tweet": 4392,
+            "position": 13,
+            "words": "<hashtag> juegos paral\u00edmpicos"
+        },
+        {
+            "activation": 1.8433140516281128,
+            "tweet": 3749,
+            "position": 30,
+            "words": "<hashtag> grainger racing"
+        },
+        {
+            "activation": 1.7654651403427124,
+            "tweet": 4470,
+            "position": 13,
+            "words": "<hashtag> andrew brunson"
+        },
+        {
+            "activation": 1.7520151138305664,
+            "tweet": 4883,
+            "position": 15,
+            "words": "<hashtag> garth brooks"
+        }
+    ],
+    "Filter_4": [
+        {
+            "activation": 3.141528367996216,
+            "tweet": 9913,
+            "position": 29,
+            "words": "purch necessary <number>\u2026"
+        },
+        {
+            "activation": 2.3189311027526855,
+            "tweet": 3032,
+            "position": 30,
+            "words": "double-decker rekt sandwich"
+        },
+        {
+            "activation": 2.2385294437408447,
+            "tweet": 9144,
+            "position": 27,
+            "words": "long-winded speech myself"
+        },
+        {
+            "activation": 2.1104087829589844,
+            "tweet": 9144,
+            "position": 17,
+            "words": "long-winded speeches here"
+        },
+        {
+            "activation": 2.05802059173584,
+            "tweet": 2235,
+            "position": 22,
+            "words": "beautified parks and"
+        },
+        {
+            "activation": 1.940180778503418,
+            "tweet": 7334,
+            "position": 14,
+            "words": "digestible podcasts covering"
+        },
+        {
+            "activation": 1.938307523727417,
+            "tweet": 2090,
+            "position": 20,
+            "words": "dishonorable discharge ."
+        },
+        {
+            "activation": 1.9305522441864014,
+            "tweet": 5905,
+            "position": 23,
+            "words": "marylanders have until"
+        },
+        {
+            "activation": 1.9273422956466675,
+            "tweet": 8196,
+            "position": 20,
+            "words": "evacuees staying in"
+        },
+        {
+            "activation": 1.8703255653381348,
+            "tweet": 6660,
+            "position": 16,
+            "words": "mar-a-lago . all"
+        }
+    ],
+    "Filter_5": [
+        {
+            "activation": 2.1135804653167725,
+            "tweet": 1836,
+            "position": 23,
+            "words": "compromiso del senado"
+        },
+        {
+            "activation": 2.0937552452087402,
+            "tweet": 7303,
+            "position": 28,
+            "words": "advances dodd-frank replacement"
+        },
+        {
+            "activation": 2.0615501403808594,
+            "tweet": 9339,
+            "position": 23,
+            "words": "civil war monument"
+        },
+        {
+            "activation": 2.019455909729004,
+            "tweet": 9093,
+            "position": 24,
+            "words": "? republicans ordering"
+        },
+        {
+            "activation": 1.9862171411514282,
+            "tweet": 9651,
+            "position": 22,
+            "words": "<allcaps> outbreaks among"
+        },
+        {
+            "activation": 1.929011344909668,
+            "tweet": 3286,
+            "position": 28,
+            "words": "paris climate agreement"
+        },
+        {
+            "activation": 1.929011344909668,
+            "tweet": 5442,
+            "position": 22,
+            "words": "paris climate agreement"
+        },
+        {
+            "activation": 1.929011344909668,
+            "tweet": 9381,
+            "position": 19,
+            "words": "paris climate agreement"
+        },
+        {
+            "activation": 1.9257065057754517,
+            "tweet": 2036,
+            "position": 22,
+            "words": "<hashtag> arctic refuge"
+        },
+        {
+            "activation": 1.9054269790649414,
+            "tweet": 4489,
+            "position": 23,
+            "words": "<hashtag> childhoodcancer ."
+        }
+    ],
+    "Filter_6": [
+        {
+            "activation": 1.7714691162109375,
+            "tweet": 4392,
+            "position": 14,
+            "words": "juegos paral\u00edmpicos !"
+        },
+        {
+            "activation": 1.615424633026123,
+            "tweet": 2133,
+            "position": 12,
+            "words": "los estadios hist\u00f3ricos"
+        },
+        {
+            "activation": 1.5955016613006592,
+            "tweet": 5255,
+            "position": 28,
+            "words": "bellows is poppin"
+        },
+        {
+            "activation": 1.5783275365829468,
+            "tweet": 3468,
+            "position": 12,
+            "words": "aldermen burnett historically"
+        },
+        {
+            "activation": 1.5602556467056274,
+            "tweet": 7097,
+            "position": 15,
+            "words": "duchenne muscular dystrophy"
+        },
+        {
+            "activation": 1.5489381551742554,
+            "tweet": 1400,
+            "position": 24,
+            "words": "controller; pelaez appointed"
+        },
+        {
+            "activation": 1.4965252876281738,
+            "tweet": 7465,
+            "position": 22,
+            "words": "pope francis decried"
+        },
+        {
+            "activation": 1.4715758562088013,
+            "tweet": 5874,
+            "position": 18,
+            "words": "toll bros nor"
+        },
+        {
+            "activation": 1.4564824104309082,
+            "tweet": 3332,
+            "position": 21,
+            "words": "tus comentarios ra\u00fal,"
+        },
+        {
+            "activation": 1.4536702632904053,
+            "tweet": 6398,
+            "position": 23,
+            "words": "mistrial is declared"
+        }
+    ],
+    "Filter_7": [
+        {
+            "activation": 2.52610182762146,
+            "tweet": 9973,
+            "position": 24,
+            "words": "svp par msg"
+        },
+        {
+            "activation": 1.9599491357803345,
+            "tweet": 2094,
+            "position": 26,
+            "words": "please message us"
+        },
+        {
+            "activation": 1.9316977262496948,
+            "tweet": 5835,
+            "position": 31,
+            "words": "thanks eleni <unknown>"
+        },
+        {
+            "activation": 1.9189262390136719,
+            "tweet": 1234,
+            "position": 20,
+            "words": "hi duniya badalte"
+        },
+        {
+            "activation": 1.8924640417099,
+            "tweet": 8039,
+            "position": 21,
+            "words": "chris sciolono leaned"
+        },
+        {
+            "activation": 1.8730612993240356,
+            "tweet": 6883,
+            "position": 18,
+            "words": "please dm name,"
+        },
+        {
+            "activation": 1.858761191368103,
+            "tweet": 4572,
+            "position": 21,
+            "words": "for personalized communications"
+        },
+        {
+            "activation": 1.8302570581436157,
+            "tweet": 8025,
+            "position": 6,
+            "words": "thnx dede and"
+        },
+        {
+            "activation": 1.8282012939453125,
+            "tweet": 7734,
+            "position": 16,
+            "words": "following calpine careers"
+        },
+        {
+            "activation": 1.8282012939453125,
+            "tweet": 8513,
+            "position": 16,
+            "words": "following calpine careers"
+        }
+    ],
+    "Filter_8": [
+        {
+            "activation": 2.0505406856536865,
+            "tweet": 4402,
+            "position": 14,
+            "words": "gin infused smoked"
+        },
+        {
+            "activation": 1.4549092054367065,
+            "tweet": 1234,
+            "position": 21,
+            "words": "duniya badalte hain"
+        },
+        {
+            "activation": 1.4437800645828247,
+            "tweet": 5105,
+            "position": 28,
+            "words": "its four formulations,"
+        },
+        {
+            "activation": 1.4369728565216064,
+            "tweet": 3460,
+            "position": 25,
+            "words": "the punch nonalcoholic"
+        },
+        {
+            "activation": 1.4196006059646606,
+            "tweet": 1351,
+            "position": 23,
+            "words": "inflation targets underscored"
+        },
+        {
+            "activation": 1.4065451622009277,
+            "tweet": 1638,
+            "position": 20,
+            "words": "up turning snoopy"
+        },
+        {
+            "activation": 1.3408899307250977,
+            "tweet": 2605,
+            "position": 23,
+            "words": "flows approaching $<number>"
+        },
+        {
+            "activation": 1.3144972324371338,
+            "tweet": 9181,
+            "position": 29,
+            "words": "steadily drops off\u201d"
+        },
+        {
+            "activation": 1.2996785640716553,
+            "tweet": 6602,
+            "position": 25,
+            "words": "adjusted earnings per"
+        },
+        {
+            "activation": 1.2272953987121582,
+            "tweet": 8201,
+            "position": 26,
+            "words": "few weeks ago,"
+        }
+    ],
+    "Filter_9": [
+        {
+            "activation": 2.0330536365509033,
+            "tweet": 7210,
+            "position": 21,
+            "words": "of fluor -"
+        },
+        {
+            "activation": 1.8068091869354248,
+            "tweet": 4815,
+            "position": 28,
+            "words": "<hashtag> cuphead collectibles"
+        },
+        {
+            "activation": 1.7778674364089966,
+            "tweet": 3032,
+            "position": 29,
+            "words": "a double-decker rekt"
+        },
+        {
+            "activation": 1.7081528902053833,
+            "tweet": 7319,
+            "position": 9,
+            "words": "<unknown> fluor ceo"
+        },
+        {
+            "activation": 1.6909077167510986,
+            "tweet": 4822,
+            "position": 28,
+            "words": "<hashtag> jamaica film"
+        },
+        {
+            "activation": 1.6401315927505493,
+            "tweet": 4489,
+            "position": 23,
+            "words": "<hashtag> childhoodcancer ."
+        },
+        {
+            "activation": 1.6370234489440918,
+            "tweet": 9620,
+            "position": 29,
+            "words": "s demi style"
+        },
+        {
+            "activation": 1.5707693099975586,
+            "tweet": 632,
+            "position": 15,
+            "words": "mt <allcaps><number>e series"
+        },
+        {
+            "activation": 1.5419337749481201,
+            "tweet": 1540,
+            "position": 12,
+            "words": "smoke weed with"
+        },
+        {
+            "activation": 1.5406678915023804,
+            "tweet": 6706,
+            "position": 31,
+            "words": "<hashtag> holidaychillsweepstakes <unknown>"
+        }
+    ],
+    "Filter_10": [
+        {
+            "activation": 3.4049322605133057,
+            "tweet": 402,
+            "position": 29,
+            "words": "<allcaps>, echosign <url>"
+        },
+        {
+            "activation": 2.8376400470733643,
+            "tweet": 1234,
+            "position": 21,
+            "words": "duniya badalte hain"
+        },
+        {
+            "activation": 2.240607738494873,
+            "tweet": 7964,
+            "position": 15,
+            "words": "l'shana tovah !"
+        },
+        {
+            "activation": 2.100679636001587,
+            "tweet": 2662,
+            "position": 7,
+            "words": "<number>-hp tfsi <allcaps>\u00ae"
+        },
+        {
+            "activation": 1.8735921382904053,
+            "tweet": 7468,
+            "position": 28,
+            "words": "dorothy mantooth would've"
+        },
+        {
+            "activation": 1.8604073524475098,
+            "tweet": 8304,
+            "position": 29,
+            "words": "black stainless <url>"
+        },
+        {
+            "activation": 1.8294053077697754,
+            "tweet": 5208,
+            "position": 28,
+            "words": "korbo lorbo jeetbo"
+        },
+        {
+            "activation": 1.8174891471862793,
+            "tweet": 3803,
+            "position": 24,
+            "words": "veuve clicquot &amp;"
+        },
+        {
+            "activation": 1.8174891471862793,
+            "tweet": 1731,
+            "position": 24,
+            "words": "veuve clicquot &amp;"
+        },
+        {
+            "activation": 1.8174891471862793,
+            "tweet": 7817,
+            "position": 24,
+            "words": "veuve clicquot &amp;"
+        }
+    ],
+    "Filter_11": [
+        {
+            "activation": 2.3153226375579834,
+            "tweet": 5144,
+            "position": 20,
+            "words": "schumer shutdown: democrats"
+        },
+        {
+            "activation": 2.2780983448028564,
+            "tweet": 5814,
+            "position": 21,
+            "words": "graham cassidy repeals"
+        },
+        {
+            "activation": 2.253319263458252,
+            "tweet": 4197,
+            "position": 19,
+            "words": "betsy devos is"
+        },
+        {
+            "activation": 2.2230448722839355,
+            "tweet": 1391,
+            "position": 11,
+            "words": "president sean chiao"
+        },
+        {
+            "activation": 2.20798397064209,
+            "tweet": 2664,
+            "position": 19,
+            "words": "? offering aflac"
+        },
+        {
+            "activation": 2.1294260025024414,
+            "tweet": 6068,
+            "position": 28,
+            "words": "betsy devos and"
+        },
+        {
+            "activation": 2.081188678741455,
+            "tweet": 4831,
+            "position": 30,
+            "words": "points: \u2022 nothing"
+        },
+        {
+            "activation": 2.0721702575683594,
+            "tweet": 7757,
+            "position": 25,
+            "words": "trillion-dollar deficits and"
+        },
+        {
+            "activation": 2.070251703262329,
+            "tweet": 1094,
+            "position": 23,
+            "words": "health care repeal"
+        },
+        {
+            "activation": 1.99972403049469,
+            "tweet": 5379,
+            "position": 15,
+            "words": "betsy devos has"
+        }
+    ],
+    "Filter_12": [
+        {
+            "activation": 2.6755013465881348,
+            "tweet": 7734,
+            "position": 29,
+            "words": "opportunities with calpine"
+        },
+        {
+            "activation": 2.6755013465881348,
+            "tweet": 8513,
+            "position": 29,
+            "words": "opportunities with calpine"
+        },
+        {
+            "activation": 2.6755013465881348,
+            "tweet": 6183,
+            "position": 29,
+            "words": "opportunities with calpine"
+        },
+        {
+            "activation": 2.5751068592071533,
+            "tweet": 4189,
+            "position": 25,
+            "words": "modernfamily <hashtag> setlife"
+        },
+        {
+            "activation": 2.5655903816223145,
+            "tweet": 6828,
+            "position": 13,
+            "words": "telekom security aligns"
+        },
+        {
+            "activation": 2.547988176345825,
+            "tweet": 6813,
+            "position": 21,
+            "words": "earnings call hijinks"
+        },
+        {
+            "activation": 2.5152909755706787,
+            "tweet": 1894,
+            "position": 22,
+            "words": "to this outtake"
+        },
+        {
+            "activation": 2.428537368774414,
+            "tweet": 8807,
+            "position": 20,
+            "words": "/ meghan markle"
+        },
+        {
+            "activation": 2.4104933738708496,
+            "tweet": 6552,
+            "position": 16,
+            "words": "qing knows firsthand"
+        },
+        {
+            "activation": 2.385437250137329,
+            "tweet": 3843,
+            "position": 25,
+            "words": "buy an instax"
+        }
+    ],
+    "Filter_13": [
+        {
+            "activation": 1.7619565725326538,
+            "tweet": 8144,
+            "position": 16,
+            "words": "<hashtag> chantaje en"
+        },
+        {
+            "activation": 1.7308164834976196,
+            "tweet": 467,
+            "position": 19,
+            "words": "la informaci\u00f3n v\u00eda"
+        },
+        {
+            "activation": 1.6954058408737183,
+            "tweet": 2078,
+            "position": 18,
+            "words": "sepa qu\u00e9 productos"
+        },
+        {
+            "activation": 1.6223293542861938,
+            "tweet": 1904,
+            "position": 27,
+            "words": "? answer by"
+        },
+        {
+            "activation": 1.6223293542861938,
+            "tweet": 6439,
+            "position": 26,
+            "words": "? answer by"
+        },
+        {
+            "activation": 1.6223293542861938,
+            "tweet": 4864,
+            "position": 22,
+            "words": "? answer by"
+        },
+        {
+            "activation": 1.6223293542861938,
+            "tweet": 5479,
+            "position": 27,
+            "words": "? answer by"
+        },
+        {
+            "activation": 1.6223293542861938,
+            "tweet": 402,
+            "position": 22,
+            "words": "? answer by"
+        },
+        {
+            "activation": 1.6026129722595215,
+            "tweet": 4145,
+            "position": 12,
+            "words": "pensando qu\u00e9 regalar"
+        },
+        {
+            "activation": 1.5899864435195923,
+            "tweet": 9913,
+            "position": 27,
+            "words": "<hashtag> no purch"
+        }
+    ],
+    "Filter_14": [
+        {
+            "activation": 2.457451581954956,
+            "tweet": 7508,
+            "position": 19,
+            "words": "principal corrosion technologist"
+        },
+        {
+            "activation": 1.7406941652297974,
+            "tweet": 6295,
+            "position": 10,
+            "words": "<unknown> pickled onions"
+        },
+        {
+            "activation": 1.6827806234359741,
+            "tweet": 317,
+            "position": 21,
+            "words": "charmilles, ajout d\u2019un"
+        },
+        {
+            "activation": 1.6825990676879883,
+            "tweet": 7097,
+            "position": 15,
+            "words": "duchenne muscular dystrophy"
+        },
+        {
+            "activation": 1.6793183088302612,
+            "tweet": 2090,
+            "position": 19,
+            "words": "except dishonorable discharge"
+        },
+        {
+            "activation": 1.6767370700836182,
+            "tweet": 9573,
+            "position": 24,
+            "words": "bill dawson kicking"
+        },
+        {
+            "activation": 1.6200085878372192,
+            "tweet": 1770,
+            "position": 24,
+            "words": "arconic's aluminum alloy"
+        },
+        {
+            "activation": 1.608781337738037,
+            "tweet": 3066,
+            "position": 31,
+            "words": "private ledgers <unknown>"
+        },
+        {
+            "activation": 1.5958222150802612,
+            "tweet": 1234,
+            "position": 21,
+            "words": "duniya badalte hain"
+        },
+        {
+            "activation": 1.5899956226348877,
+            "tweet": 4832,
+            "position": 21,
+            "words": "<number> remembrance ceremony"
+        }
+    ],
+    "Filter_15": [
+        {
+            "activation": 2.227625846862793,
+            "tweet": 5480,
+            "position": 27,
+            "words": "faltarte para iniciar"
+        },
+        {
+            "activation": 2.192610025405884,
+            "tweet": 1737,
+            "position": 21,
+            "words": "os parab\u00e9ns e"
+        },
+        {
+            "activation": 2.0307953357696533,
+            "tweet": 319,
+            "position": 26,
+            "words": "tamben te amo"
+        },
+        {
+            "activation": 2.021665573120117,
+            "tweet": 3332,
+            "position": 19,
+            "words": "gracias por tus"
+        },
+        {
+            "activation": 1.7758663892745972,
+            "tweet": 4807,
+            "position": 13,
+            "words": "male vs female"
+        },
+        {
+            "activation": 1.7750046253204346,
+            "tweet": 4145,
+            "position": 26,
+            "words": "tiene para ti"
+        },
+        {
+            "activation": 1.7603991031646729,
+            "tweet": 9042,
+            "position": 20,
+            "words": "fuerte que nunca"
+        },
+        {
+            "activation": 1.741336703300476,
+            "tweet": 9489,
+            "position": 16,
+            "words": "limited-edition skin so"
+        },
+        {
+            "activation": 1.7174291610717773,
+            "tweet": 8645,
+            "position": 10,
+            "words": "suerte no existe"
+        },
+        {
+            "activation": 1.6900218725204468,
+            "tweet": 2892,
+            "position": 11,
+            "words": "gran rival y"
+        }
+    ],
+    "Filter_16": [
+        {
+            "activation": 1.9094178676605225,
+            "tweet": 4239,
+            "position": 21,
+            "words": "team gordon biersch"
+        },
+        {
+            "activation": 1.8808939456939697,
+            "tweet": 7468,
+            "position": 27,
+            "words": "<user> dorothy mantooth"
+        },
+        {
+            "activation": 1.6303415298461914,
+            "tweet": 2765,
+            "position": 26,
+            "words": "<unknown> allegheny absentees"
+        },
+        {
+            "activation": 1.5710046291351318,
+            "tweet": 3203,
+            "position": 30,
+            "words": "love charles proxy"
+        },
+        {
+            "activation": 1.5289026498794556,
+            "tweet": 7431,
+            "position": 16,
+            "words": "china, avery dennison"
+        },
+        {
+            "activation": 1.4885677099227905,
+            "tweet": 1427,
+            "position": 23,
+            "words": "saw amex categorizes"
+        },
+        {
+            "activation": 1.4495389461517334,
+            "tweet": 1871,
+            "position": 22,
+            "words": "judge posner steps"
+        },
+        {
+            "activation": 1.4012813568115234,
+            "tweet": 1206,
+            "position": 30,
+            "words": "and whitney \ud83d\ude14"
+        },
+        {
+            "activation": 1.386905550956726,
+            "tweet": 7876,
+            "position": 17,
+            "words": "phillips' rufus gandhi"
+        },
+        {
+            "activation": 1.373964786529541,
+            "tweet": 3181,
+            "position": 28,
+            "words": "an inspiration, calman"
+        }
+    ],
+    "Filter_17": [
+        {
+            "activation": 1.920333981513977,
+            "tweet": 4802,
+            "position": 15,
+            "words": "omedetou gozaimasu !"
+        },
+        {
+            "activation": 1.8313300609588623,
+            "tweet": 5930,
+            "position": 23,
+            "words": "fan-favorite bedroom !"
+        },
+        {
+            "activation": 1.7887916564941406,
+            "tweet": 5784,
+            "position": 6,
+            "words": "<unknown> wilkes-barre pa"
+        },
+        {
+            "activation": 1.7240431308746338,
+            "tweet": 4802,
+            "position": 14,
+            "words": "<unknown> omedetou gozaimasu"
+        },
+        {
+            "activation": 1.7015659809112549,
+            "tweet": 1234,
+            "position": 22,
+            "words": "badalte hain !"
+        },
+        {
+            "activation": 1.692460060119629,
+            "tweet": 5680,
+            "position": 19,
+            "words": "yeh hai aapka"
+        },
+        {
+            "activation": 1.692460060119629,
+            "tweet": 1243,
+            "position": 19,
+            "words": "yeh hai aapka"
+        },
+        {
+            "activation": 1.5592494010925293,
+            "tweet": 5936,
+            "position": 23,
+            "words": "sorghum farmer dan"
+        },
+        {
+            "activation": 1.547667145729065,
+            "tweet": 317,
+            "position": 22,
+            "words": "ajout d\u2019un champ"
+        },
+        {
+            "activation": 1.5323206186294556,
+            "tweet": 7548,
+            "position": 24,
+            "words": "york\u2019s thriving film"
+        }
+    ],
+    "Filter_18": [
+        {
+            "activation": 2.2269446849823,
+            "tweet": 9262,
+            "position": 14,
+            "words": "de juego alistando"
+        },
+        {
+            "activation": 2.0098936557769775,
+            "tweet": 7238,
+            "position": 20,
+            "words": "de reposo inicialmente"
+        },
+        {
+            "activation": 1.8364009857177734,
+            "tweet": 6310,
+            "position": 27,
+            "words": "criminal acts motivated"
+        },
+        {
+            "activation": 1.7503200769424438,
+            "tweet": 4209,
+            "position": 13,
+            "words": "<unknown> pure nostalgic"
+        },
+        {
+            "activation": 1.7026872634887695,
+            "tweet": 8714,
+            "position": 23,
+            "words": "digit chk crd"
+        },
+        {
+            "activation": 1.6441115140914917,
+            "tweet": 8484,
+            "position": 30,
+            "words": "n y merlo"
+        },
+        {
+            "activation": 1.582588791847229,
+            "tweet": 2631,
+            "position": 22,
+            "words": "<unknown> a sober"
+        },
+        {
+            "activation": 1.5728925466537476,
+            "tweet": 1158,
+            "position": 28,
+            "words": "de su situaci\u00f3n"
+        },
+        {
+            "activation": 1.5646406412124634,
+            "tweet": 9213,
+            "position": 26,
+            "words": "en la grada"
+        },
+        {
+            "activation": 1.5612919330596924,
+            "tweet": 7543,
+            "position": 18,
+            "words": "or a stressful"
+        }
+    ],
+    "Filter_19": [
+        {
+            "activation": 2.5323846340179443,
+            "tweet": 5675,
+            "position": 29,
+            "words": "day <hashtag> ncpol"
+        },
+        {
+            "activation": 2.5194671154022217,
+            "tweet": 4197,
+            "position": 18,
+            "words": "that betsy devos"
+        },
+        {
+            "activation": 2.503014326095581,
+            "tweet": 1385,
+            "position": 27,
+            "words": "about russian meddling"
+        },
+        {
+            "activation": 2.488215684890747,
+            "tweet": 1641,
+            "position": 19,
+            "words": "of russian meddling"
+        },
+        {
+            "activation": 2.3103365898132324,
+            "tweet": 1541,
+            "position": 28,
+            "words": "was refusing lawful"
+        },
+        {
+            "activation": 2.212980031967163,
+            "tweet": 6068,
+            "position": 27,
+            "words": "like betsy devos"
+        },
+        {
+            "activation": 2.1945955753326416,
+            "tweet": 7771,
+            "position": 22,
+            "words": "by white nationalists"
+        },
+        {
+            "activation": 2.1371304988861084,
+            "tweet": 9740,
+            "position": 27,
+            "words": "thanksgiving <hashtag> dub"
+        },
+        {
+            "activation": 2.113269805908203,
+            "tweet": 9352,
+            "position": 26,
+            "words": "san marcos pd"
+        },
+        {
+            "activation": 2.08780837059021,
+            "tweet": 1504,
+            "position": 26,
+            "words": "lists sessions staffers"
+        }
+    ],
+    "Filter_20": [
+        {
+            "activation": 1.6828314065933228,
+            "tweet": 317,
+            "position": 22,
+            "words": "ajout d\u2019un champ"
+        },
+        {
+            "activation": 1.5628176927566528,
+            "tweet": 1836,
+            "position": 19,
+            "words": "resoluci\u00f3n bipartidista reafirmando"
+        },
+        {
+            "activation": 1.5414774417877197,
+            "tweet": 6490,
+            "position": 19,
+            "words": "lamentamos que no"
+        },
+        {
+            "activation": 1.4659805297851562,
+            "tweet": 5680,
+            "position": 17,
+            "words": "batman nahi, yeh"
+        },
+        {
+            "activation": 1.4659805297851562,
+            "tweet": 1243,
+            "position": 17,
+            "words": "batman nahi, yeh"
+        },
+        {
+            "activation": 1.4408526420593262,
+            "tweet": 6080,
+            "position": 10,
+            "words": "solids &amp; gasses"
+        },
+        {
+            "activation": 1.4216336011886597,
+            "tweet": 1538,
+            "position": 23,
+            "words": "env\u00edenos un mensaje"
+        },
+        {
+            "activation": 1.3684642314910889,
+            "tweet": 1369,
+            "position": 25,
+            "words": "<allcaps>,\u201d dr feeney"
+        },
+        {
+            "activation": 1.33263099193573,
+            "tweet": 8573,
+            "position": 28,
+            "words": "trailer as promised"
+        },
+        {
+            "activation": 1.33263099193573,
+            "tweet": 1695,
+            "position": 28,
+            "words": "trailer as promised"
+        }
+    ],
+    "Filter_21": [
+        {
+            "activation": 2.336461305618286,
+            "tweet": 42,
+            "position": 17,
+            "words": "<hashtag> avnet build"
+        },
+        {
+            "activation": 2.0713307857513428,
+            "tweet": 4834,
+            "position": 28,
+            "words": "insert half-hearted unregulated"
+        },
+        {
+            "activation": 2.070995807647705,
+            "tweet": 8987,
+            "position": 21,
+            "words": "<unknown> avista capital"
+        },
+        {
+            "activation": 2.0401864051818848,
+            "tweet": 4445,
+            "position": 27,
+            "words": "stephen hawking lived"
+        },
+        {
+            "activation": 1.9889252185821533,
+            "tweet": 6702,
+            "position": 22,
+            "words": "<unknown> end-to-end encryption"
+        },
+        {
+            "activation": 1.9804022312164307,
+            "tweet": 1481,
+            "position": 20,
+            "words": "commonsense megabyte <allcaps>"
+        },
+        {
+            "activation": 1.9610254764556885,
+            "tweet": 4973,
+            "position": 19,
+            "words": "now: avnet ceo"
+        },
+        {
+            "activation": 1.8589743375778198,
+            "tweet": 2082,
+            "position": 25,
+            "words": "<hashtag> infinity war"
+        },
+        {
+            "activation": 1.8454982042312622,
+            "tweet": 9143,
+            "position": 27,
+            "words": "like: mccabe firing"
+        },
+        {
+            "activation": 1.811768889427185,
+            "tweet": 6621,
+            "position": 14,
+            "words": "<hashtag> screamin eagle"
+        }
+    ],
+    "Filter_22": [
+        {
+            "activation": 1.8373377323150635,
+            "tweet": 9896,
+            "position": 22,
+            "words": "single undocumented immigrant"
+        },
+        {
+            "activation": 1.6985108852386475,
+            "tweet": 2988,
+            "position": 17,
+            "words": "maduro regime continues"
+        },
+        {
+            "activation": 1.6719670295715332,
+            "tweet": 2189,
+            "position": 15,
+            "words": "million undocumented immigrants"
+        },
+        {
+            "activation": 1.6448105573654175,
+            "tweet": 8763,
+            "position": 20,
+            "words": "marching orders were:"
+        },
+        {
+            "activation": 1.6440922021865845,
+            "tweet": 3658,
+            "position": 30,
+            "words": "mexico quake <url>"
+        },
+        {
+            "activation": 1.5296038389205933,
+            "tweet": 9278,
+            "position": 22,
+            "words": "nuclear war requires"
+        },
+        {
+            "activation": 1.490082025527954,
+            "tweet": 6663,
+            "position": 24,
+            "words": "derails hundreds of"
+        },
+        {
+            "activation": 1.4439855813980103,
+            "tweet": 6713,
+            "position": 10,
+            "words": "nuclear plants pledge"
+        },
+        {
+            "activation": 1.4342749118804932,
+            "tweet": 1613,
+            "position": 18,
+            "words": "hacen de una"
+        },
+        {
+            "activation": 1.42599356174469,
+            "tweet": 4543,
+            "position": 20,
+            "words": "unanimous settlement to"
+        }
+    ],
+    "Filter_23": [
+        {
+            "activation": 1.6011486053466797,
+            "tweet": 3468,
+            "position": 12,
+            "words": "aldermen burnett historically"
+        },
+        {
+            "activation": 1.58224618434906,
+            "tweet": 9715,
+            "position": 24,
+            "words": "recent predecessors is"
+        },
+        {
+            "activation": 1.5818803310394287,
+            "tweet": 321,
+            "position": 22,
+            "words": "milo smuggled nazi"
+        },
+        {
+            "activation": 1.4056776762008667,
+            "tweet": 7920,
+            "position": 10,
+            "words": "ngo dinh diem"
+        },
+        {
+            "activation": 1.4009404182434082,
+            "tweet": 8249,
+            "position": 24,
+            "words": "hands-on jimmie is"
+        },
+        {
+            "activation": 1.3954172134399414,
+            "tweet": 6830,
+            "position": 14,
+            "words": "refresh rate is"
+        },
+        {
+            "activation": 1.3099279403686523,
+            "tweet": 8516,
+            "position": 8,
+            "words": "erstwhile putin ally"
+        },
+        {
+            "activation": 1.3093148469924927,
+            "tweet": 1490,
+            "position": 20,
+            "words": "boykin met w"
+        },
+        {
+            "activation": 1.3036116361618042,
+            "tweet": 9703,
+            "position": 9,
+            "words": "\"the goal is"
+        },
+        {
+            "activation": 1.2893121242523193,
+            "tweet": 8804,
+            "position": 22,
+            "words": "of clinician is"
+        }
+    ],
+    "Filter_24": [
+        {
+            "activation": 2.3749983310699463,
+            "tweet": 2187,
+            "position": 29,
+            "words": "<hashtag> amgen onco"
+        },
+        {
+            "activation": 2.3749983310699463,
+            "tweet": 5391,
+            "position": 30,
+            "words": "<hashtag> amgen onco"
+        },
+        {
+            "activation": 2.3749983310699463,
+            "tweet": 5627,
+            "position": 30,
+            "words": "<hashtag> amgen onco"
+        },
+        {
+            "activation": 2.3749983310699463,
+            "tweet": 9215,
+            "position": 30,
+            "words": "<hashtag> amgen onco"
+        },
+        {
+            "activation": 2.2671687602996826,
+            "tweet": 8144,
+            "position": 16,
+            "words": "<hashtag> chantaje en"
+        },
+        {
+            "activation": 2.1444294452667236,
+            "tweet": 1022,
+            "position": 29,
+            "words": "<hashtag> dr phil"
+        },
+        {
+            "activation": 2.1444294452667236,
+            "tweet": 1571,
+            "position": 29,
+            "words": "<hashtag> dr phil"
+        },
+        {
+            "activation": 2.1444294452667236,
+            "tweet": 961,
+            "position": 29,
+            "words": "<hashtag> dr phil"
+        },
+        {
+            "activation": 2.1444294452667236,
+            "tweet": 2116,
+            "position": 26,
+            "words": "<hashtag> dr phil"
+        },
+        {
+            "activation": 2.1444294452667236,
+            "tweet": 9661,
+            "position": 29,
+            "words": "<hashtag> dr phil"
+        }
+    ],
+    "Filter_25": [
+        {
+            "activation": 3.5218544006347656,
+            "tweet": 1181,
+            "position": 31,
+            "words": "<hashtag> takeovertuesday <unknown>"
+        },
+        {
+            "activation": 3.5218544006347656,
+            "tweet": 2880,
+            "position": 31,
+            "words": "<hashtag> takeovertuesday <unknown>"
+        },
+        {
+            "activation": 3.5218544006347656,
+            "tweet": 8425,
+            "position": 31,
+            "words": "<hashtag> takeovertuesday <unknown>"
+        },
+        {
+            "activation": 3.500037908554077,
+            "tweet": 1554,
+            "position": 31,
+            "words": "<hashtag> todayweplay <unknown>"
+        },
+        {
+            "activation": 3.500037908554077,
+            "tweet": 4158,
+            "position": 31,
+            "words": "<hashtag> todayweplay <unknown>"
+        },
+        {
+            "activation": 3.10445237159729,
+            "tweet": 3098,
+            "position": 16,
+            "words": "the calpine network"
+        },
+        {
+            "activation": 2.9903769493103027,
+            "tweet": 9647,
+            "position": 19,
+            "words": "forever (@ el"
+        },
+        {
+            "activation": 2.957183837890625,
+            "tweet": 3458,
+            "position": 28,
+            "words": "<hashtag> collegemedia <hashtag>"
+        },
+        {
+            "activation": 2.9113452434539795,
+            "tweet": 9762,
+            "position": 9,
+            "words": "<hashtag> schwab live"
+        },
+        {
+            "activation": 2.891475200653076,
+            "tweet": 486,
+            "position": 30,
+            "words": "<hashtag> writemorebusiness [<url>]"
+        }
+    ],
+    "Filter_26": [
+        {
+            "activation": 1.953894019126892,
+            "tweet": 2103,
+            "position": 30,
+            "words": "lake havasu <url>"
+        },
+        {
+            "activation": 1.8204536437988281,
+            "tweet": 2133,
+            "position": 13,
+            "words": "estadios hist\u00f3ricos de"
+        },
+        {
+            "activation": 1.639654517173767,
+            "tweet": 1948,
+            "position": 29,
+            "words": "di lusso deli"
+        },
+        {
+            "activation": 1.5239603519439697,
+            "tweet": 6593,
+            "position": 18,
+            "words": "podr\u00edas contactar v\u00eda"
+        },
+        {
+            "activation": 1.4997961521148682,
+            "tweet": 797,
+            "position": 22,
+            "words": "damonte ranch active-adult"
+        },
+        {
+            "activation": 1.4976357221603394,
+            "tweet": 1234,
+            "position": 21,
+            "words": "duniya badalte hain"
+        },
+        {
+            "activation": 1.4564355611801147,
+            "tweet": 1613,
+            "position": 30,
+            "words": "segundo hogar <url>"
+        },
+        {
+            "activation": 1.4336507320404053,
+            "tweet": 860,
+            "position": 22,
+            "words": "ese portero de"
+        },
+        {
+            "activation": 1.4269121885299683,
+            "tweet": 4233,
+            "position": 30,
+            "words": "mohave county\" <url>"
+        },
+        {
+            "activation": 1.3765536546707153,
+            "tweet": 975,
+            "position": 29,
+            "words": "<hashtag> cdmx <allcaps>"
+        }
+    ],
+    "Filter_27": [
+        {
+            "activation": 1.7783088684082031,
+            "tweet": 9829,
+            "position": 19,
+            "words": "pufferfish teach you"
+        },
+        {
+            "activation": 1.7674108743667603,
+            "tweet": 1872,
+            "position": 11,
+            "words": "<allcaps> catchy choruses"
+        },
+        {
+            "activation": 1.69831383228302,
+            "tweet": 5208,
+            "position": 28,
+            "words": "korbo lorbo jeetbo"
+        },
+        {
+            "activation": 1.695784091949463,
+            "tweet": 3265,
+            "position": 10,
+            "words": "<unknown> * executes"
+        },
+        {
+            "activation": 1.6322420835494995,
+            "tweet": 3627,
+            "position": 21,
+            "words": "humans to moon"
+        },
+        {
+            "activation": 1.5888583660125732,
+            "tweet": 6379,
+            "position": 15,
+            "words": "or apricot seeds"
+        },
+        {
+            "activation": 1.5864728689193726,
+            "tweet": 9632,
+            "position": 30,
+            "words": "yours \u2192 <url>"
+        },
+        {
+            "activation": 1.5550106763839722,
+            "tweet": 4802,
+            "position": 13,
+            "words": "<unknown> <unknown> omedetou"
+        },
+        {
+            "activation": 1.5416176319122314,
+            "tweet": 1809,
+            "position": 21,
+            "words": "genetically modified crops"
+        },
+        {
+            "activation": 1.5159432888031006,
+            "tweet": 1028,
+            "position": 22,
+            "words": "malware / spear"
+        }
+    ],
+    "Filter_28": [
+        {
+            "activation": 2.01029109954834,
+            "tweet": 7238,
+            "position": 21,
+            "words": "reposo inicialmente y"
+        },
+        {
+            "activation": 1.984415888786316,
+            "tweet": 3859,
+            "position": 27,
+            "words": "hcsmeu <hashtag> pharma"
+        },
+        {
+            "activation": 1.9357366561889648,
+            "tweet": 3314,
+            "position": 28,
+            "words": "celgene summer internship"
+        },
+        {
+            "activation": 1.9261776208877563,
+            "tweet": 1613,
+            "position": 29,
+            "words": "mi segundo hogar"
+        },
+        {
+            "activation": 1.8860582113265991,
+            "tweet": 9116,
+            "position": 29,
+            "words": "band-aids ftw <allcaps>"
+        },
+        {
+            "activation": 1.8677995204925537,
+            "tweet": 5186,
+            "position": 14,
+            "words": "burned barely covered"
+        },
+        {
+            "activation": 1.7940123081207275,
+            "tweet": 1737,
+            "position": 10,
+            "words": "louco com sua"
+        },
+        {
+            "activation": 1.7603200674057007,
+            "tweet": 7238,
+            "position": 19,
+            "words": "d\u00edas de reposo"
+        },
+        {
+            "activation": 1.7456467151641846,
+            "tweet": 5130,
+            "position": 18,
+            "words": "<unknown> republican cabinet"
+        },
+        {
+            "activation": 1.737261414527893,
+            "tweet": 7600,
+            "position": 28,
+            "words": "sobre nuestro protection"
+        }
+    ],
+    "Filter_29": [
+        {
+            "activation": 1.8333845138549805,
+            "tweet": 5208,
+            "position": 28,
+            "words": "korbo lorbo jeetbo"
+        },
+        {
+            "activation": 1.8146946430206299,
+            "tweet": 9262,
+            "position": 15,
+            "words": "juego alistando motores"
+        },
+        {
+            "activation": 1.5899591445922852,
+            "tweet": 4053,
+            "position": 29,
+            "words": "\u2661 mishu \ud83d\udd96\ud83c\udffc"
+        },
+        {
+            "activation": 1.5149763822555542,
+            "tweet": 1737,
+            "position": 27,
+            "words": "admiro \u270c\ud83d\udc4a tamo"
+        },
+        {
+            "activation": 1.3856767416000366,
+            "tweet": 6379,
+            "position": 6,
+            "words": "<unknown> <user>:our softsoap"
+        },
+        {
+            "activation": 1.365505337715149,
+            "tweet": 9213,
+            "position": 19,
+            "words": "acabar el gp"
+        },
+        {
+            "activation": 1.2471226453781128,
+            "tweet": 3385,
+            "position": 29,
+            "words": "seguir as\u00ed \ud83d\udc4d\ud83d\udcaa"
+        },
+        {
+            "activation": 1.2364459037780762,
+            "tweet": 4321,
+            "position": 18,
+            "words": "que ten\u00edamos un"
+        },
+        {
+            "activation": 1.1981390714645386,
+            "tweet": 2078,
+            "position": 26,
+            "words": "eliminar con pharmacy"
+        },
+        {
+            "activation": 1.1807481050491333,
+            "tweet": 3385,
+            "position": 23,
+            "words": "claro jorgito vamos"
+        }
+    ],
+    "Filter_30": [
+        {
+            "activation": 1.7661428451538086,
+            "tweet": 2740,
+            "position": 26,
+            "words": "uses lifelike personalized"
+        },
+        {
+            "activation": 1.7386536598205566,
+            "tweet": 6342,
+            "position": 21,
+            "words": "langhorne friedrich to"
+        },
+        {
+            "activation": 1.5602426528930664,
+            "tweet": 860,
+            "position": 22,
+            "words": "ese portero de"
+        },
+        {
+            "activation": 1.3546350002288818,
+            "tweet": 7079,
+            "position": 25,
+            "words": "using teleprompters to"
+        },
+        {
+            "activation": 1.3414671421051025,
+            "tweet": 5263,
+            "position": 20,
+            "words": "y ruedas de"
+        },
+        {
+            "activation": 1.2844088077545166,
+            "tweet": 8693,
+            "position": 18,
+            "words": "assumed \"who to"
+        },
+        {
+            "activation": 1.2548766136169434,
+            "tweet": 548,
+            "position": 15,
+            "words": "m\u00e1s tosco de"
+        },
+        {
+            "activation": 1.2369654178619385,
+            "tweet": 2133,
+            "position": 13,
+            "words": "estadios hist\u00f3ricos de"
+        },
+        {
+            "activation": 1.2203738689422607,
+            "tweet": 8987,
+            "position": 27,
+            "words": "express scripts' subsidiary"
+        },
+        {
+            "activation": 1.2056808471679688,
+            "tweet": 9647,
+            "position": 21,
+            "words": "el capitan theatre"
+        }
+    ],
+    "Filter_31": [
+        {
+            "activation": 2.2899467945098877,
+            "tweet": 8998,
+            "position": 21,
+            "words": "broadcom takeover bid"
+        },
+        {
+            "activation": 2.2456958293914795,
+            "tweet": 7844,
+            "position": 23,
+            "words": "fiduciary investment services"
+        },
+        {
+            "activation": 1.9507328271865845,
+            "tweet": 5809,
+            "position": 25,
+            "words": "startup thinx has"
+        },
+        {
+            "activation": 1.9119411706924438,
+            "tweet": 8438,
+            "position": 28,
+            "words": "hormel <hashtag> wednesday"
+        },
+        {
+            "activation": 1.905434250831604,
+            "tweet": 698,
+            "position": 21,
+            "words": "alt endings ?"
+        },
+        {
+            "activation": 1.8801546096801758,
+            "tweet": 1303,
+            "position": 18,
+            "words": "enables shortwave division"
+        },
+        {
+            "activation": 1.8685427904129028,
+            "tweet": 1596,
+            "position": 19,
+            "words": "deals underscore urgency"
+        },
+        {
+            "activation": 1.8333163261413574,
+            "tweet": 2089,
+            "position": 16,
+            "words": "ekstra bladet plans"
+        },
+        {
+            "activation": 1.797427773475647,
+            "tweet": 8901,
+            "position": 24,
+            "words": "meteorology team helped"
+        },
+        {
+            "activation": 1.7806648015975952,
+            "tweet": 2944,
+            "position": 20,
+            "words": "equity manager underperformed"
+        }
+    ],
+    "Filter_32": [
+        {
+            "activation": 1.819259762763977,
+            "tweet": 3861,
+            "position": 29,
+            "words": "orgulloso patrocinador \ud83d\udc4f\ud83d\udc4f"
+        },
+        {
+            "activation": 1.819259762763977,
+            "tweet": 1018,
+            "position": 29,
+            "words": "orgulloso patrocinador \ud83d\udc4f\ud83d\udc4f"
+        },
+        {
+            "activation": 1.7164087295532227,
+            "tweet": 1415,
+            "position": 15,
+            "words": "yang raises estimate"
+        },
+        {
+            "activation": 1.679049015045166,
+            "tweet": 7097,
+            "position": 15,
+            "words": "duchenne muscular dystrophy"
+        },
+        {
+            "activation": 1.6104075908660889,
+            "tweet": 5208,
+            "position": 27,
+            "words": ". korbo lorbo"
+        },
+        {
+            "activation": 1.4181947708129883,
+            "tweet": 5208,
+            "position": 28,
+            "words": "korbo lorbo jeetbo"
+        },
+        {
+            "activation": 1.141933560371399,
+            "tweet": 7431,
+            "position": 16,
+            "words": "china, avery dennison"
+        },
+        {
+            "activation": 1.0439133644104004,
+            "tweet": 5478,
+            "position": 23,
+            "words": "high-fives zoe lofgren"
+        },
+        {
+            "activation": 1.0093263387680054,
+            "tweet": 7443,
+            "position": 14,
+            "words": "<unknown> consent decrees"
+        },
+        {
+            "activation": 0.9657377004623413,
+            "tweet": 1234,
+            "position": 21,
+            "words": "duniya badalte hain"
+        }
+    ],
+    "Filter_33": [
+        {
+            "activation": 2.031615734100342,
+            "tweet": 7288,
+            "position": 20,
+            "words": "somebody else uttered"
+        },
+        {
+            "activation": 1.7629872560501099,
+            "tweet": 8504,
+            "position": 9,
+            "words": "yes . southbound"
+        },
+        {
+            "activation": 1.7108219861984253,
+            "tweet": 7231,
+            "position": 25,
+            "words": "weenie or whatever"
+        },
+        {
+            "activation": 1.6890226602554321,
+            "tweet": 7861,
+            "position": 23,
+            "words": "rain ? nej"
+        },
+        {
+            "activation": 1.6663258075714111,
+            "tweet": 6332,
+            "position": 17,
+            "words": "that can astonish"
+        },
+        {
+            "activation": 1.6305433511734009,
+            "tweet": 4470,
+            "position": 10,
+            "words": "turkey should deport"
+        },
+        {
+            "activation": 1.6299856901168823,
+            "tweet": 6939,
+            "position": 29,
+            "words": "onion even bother"
+        },
+        {
+            "activation": 1.6110854148864746,
+            "tweet": 6297,
+            "position": 28,
+            "words": "that seems eminently"
+        },
+        {
+            "activation": 1.6052809953689575,
+            "tweet": 1925,
+            "position": 21,
+            "words": "make your self-talk"
+        },
+        {
+            "activation": 1.5922226905822754,
+            "tweet": 7619,
+            "position": 17,
+            "words": "give your mower"
+        }
+    ],
+    "Filter_34": [
+        {
+            "activation": 2.080178737640381,
+            "tweet": 7130,
+            "position": 21,
+            "words": "allez les bleus"
+        },
+        {
+            "activation": 2.0429909229278564,
+            "tweet": 7130,
+            "position": 14,
+            "words": "russie ce soir"
+        },
+        {
+            "activation": 1.9756814241409302,
+            "tweet": 9973,
+            "position": 19,
+            "words": "demandes sont tr\u00e8s"
+        },
+        {
+            "activation": 1.8351322412490845,
+            "tweet": 6502,
+            "position": 28,
+            "words": "privado con tu"
+        },
+        {
+            "activation": 1.758468508720398,
+            "tweet": 7130,
+            "position": 9,
+            "words": "match aux bleus"
+        },
+        {
+            "activation": 1.7354923486709595,
+            "tweet": 9973,
+            "position": 18,
+            "words": "les demandes sont"
+        },
+        {
+            "activation": 1.5094804763793945,
+            "tweet": 1649,
+            "position": 21,
+            "words": "<unknown> tr\u00e8s content"
+        },
+        {
+            "activation": 1.4682607650756836,
+            "tweet": 6502,
+            "position": 25,
+            "words": "enviar un mensaje"
+        },
+        {
+            "activation": 1.457506537437439,
+            "tweet": 1538,
+            "position": 26,
+            "words": "privado con su"
+        },
+        {
+            "activation": 1.4042619466781616,
+            "tweet": 3127,
+            "position": 20,
+            "words": "dry seasoned loin"
+        }
+    ],
+    "Filter_35": [
+        {
+            "activation": 2.1274924278259277,
+            "tweet": 8280,
+            "position": 30,
+            "words": "o dtour <url>"
+        },
+        {
+            "activation": 2.0991697311401367,
+            "tweet": 2946,
+            "position": 30,
+            "words": "electric trucks <url>"
+        },
+        {
+            "activation": 2.0548417568206787,
+            "tweet": 5006,
+            "position": 21,
+            "words": "! \u26be <url>"
+        },
+        {
+            "activation": 1.9704909324645996,
+            "tweet": 2589,
+            "position": 30,
+            "words": ". illegally <url>"
+        },
+        {
+            "activation": 1.952406406402588,
+            "tweet": 1086,
+            "position": 25,
+            "words": "o dtour support"
+        },
+        {
+            "activation": 1.933463454246521,
+            "tweet": 7130,
+            "position": 30,
+            "words": "<hashtag> jumpman <url>"
+        },
+        {
+            "activation": 1.9112460613250732,
+            "tweet": 7130,
+            "position": 10,
+            "words": "aux bleus contre"
+        },
+        {
+            "activation": 1.8872959613800049,
+            "tweet": 2840,
+            "position": 19,
+            "words": "<hashtag> soybean acreage"
+        },
+        {
+            "activation": 1.8735544681549072,
+            "tweet": 7130,
+            "position": 22,
+            "words": "les bleus \ud83c\udfc0\ud83c\uddeb\ud83c\uddf7"
+        },
+        {
+            "activation": 1.859692931175232,
+            "tweet": 2554,
+            "position": 20,
+            "words": "o dtour arena"
+        }
+    ],
+    "Filter_36": [
+        {
+            "activation": 2.4266746044158936,
+            "tweet": 4321,
+            "position": 25,
+            "words": "en condiciones mixtas"
+        },
+        {
+            "activation": 2.2039008140563965,
+            "tweet": 6502,
+            "position": 27,
+            "words": "mensaje privado con"
+        },
+        {
+            "activation": 2.2039008140563965,
+            "tweet": 1538,
+            "position": 25,
+            "words": "mensaje privado con"
+        },
+        {
+            "activation": 1.9995397329330444,
+            "tweet": 9262,
+            "position": 11,
+            "words": "en el campo"
+        },
+        {
+            "activation": 1.9455257654190063,
+            "tweet": 2367,
+            "position": 12,
+            "words": "en casita con"
+        },
+        {
+            "activation": 1.9042221307754517,
+            "tweet": 6824,
+            "position": 15,
+            "words": ". aforo completo"
+        },
+        {
+            "activation": 1.7841835021972656,
+            "tweet": 2367,
+            "position": 28,
+            "words": "cada momento con"
+        },
+        {
+            "activation": 1.738196611404419,
+            "tweet": 2078,
+            "position": 25,
+            "words": "debe eliminar con"
+        },
+        {
+            "activation": 1.7095996141433716,
+            "tweet": 1737,
+            "position": 10,
+            "words": "louco com sua"
+        },
+        {
+            "activation": 1.6972452402114868,
+            "tweet": 1836,
+            "position": 18,
+            "words": "una resoluci\u00f3n bipartidista"
+        }
+    ],
+    "Filter_37": [
+        {
+            "activation": 1.8176096677780151,
+            "tweet": 1369,
+            "position": 26,
+            "words": "dr feeney on"
+        },
+        {
+            "activation": 1.7516897916793823,
+            "tweet": 2362,
+            "position": 25,
+            "words": "dun laoghaire has"
+        },
+        {
+            "activation": 1.704176664352417,
+            "tweet": 9418,
+            "position": 25,
+            "words": "yuval harari, author"
+        },
+        {
+            "activation": 1.6891493797302246,
+            "tweet": 7400,
+            "position": 23,
+            "words": "quotable: lamott on"
+        },
+        {
+            "activation": 1.6694329977035522,
+            "tweet": 1907,
+            "position": 14,
+            "words": "lowe lintas creates"
+        },
+        {
+            "activation": 1.6483829021453857,
+            "tweet": 5379,
+            "position": 15,
+            "words": "betsy devos has"
+        },
+        {
+            "activation": 1.6309947967529297,
+            "tweet": 7826,
+            "position": 11,
+            "words": "icymi <allcaps>, stormy"
+        },
+        {
+            "activation": 1.5548921823501587,
+            "tweet": 2089,
+            "position": 16,
+            "words": "ekstra bladet plans"
+        },
+        {
+            "activation": 1.5388782024383545,
+            "tweet": 467,
+            "position": 26,
+            "words": "dar seguimiento a"
+        },
+        {
+            "activation": 1.5128707885742188,
+            "tweet": 6419,
+            "position": 23,
+            "words": "ginni rometty on"
+        }
+    ],
+    "Filter_38": [
+        {
+            "activation": 2.6823930740356445,
+            "tweet": 7851,
+            "position": 19,
+            "words": "full-year <number> earnings"
+        },
+        {
+            "activation": 2.6823930740356445,
+            "tweet": 8302,
+            "position": 17,
+            "words": "full-year <number> earnings"
+        },
+        {
+            "activation": 2.3960416316986084,
+            "tweet": 583,
+            "position": 28,
+            "words": "therapy on annual"
+        },
+        {
+            "activation": 2.3674941062927246,
+            "tweet": 1125,
+            "position": 28,
+            "words": "loom over trump"
+        },
+        {
+            "activation": 2.3510184288024902,
+            "tweet": 3638,
+            "position": 18,
+            "words": "zika is crucial"
+        },
+        {
+            "activation": 2.3407840728759766,
+            "tweet": 5694,
+            "position": 12,
+            "words": "fy <allcaps><number> earnings"
+        },
+        {
+            "activation": 2.3360440731048584,
+            "tweet": 8924,
+            "position": 24,
+            "words": "fhfa <allcaps> director"
+        },
+        {
+            "activation": 2.3058502674102783,
+            "tweet": 6852,
+            "position": 25,
+            "words": "polish police counter-terrorism"
+        },
+        {
+            "activation": 2.301835775375366,
+            "tweet": 8475,
+            "position": 18,
+            "words": "amgen is nominated"
+        },
+        {
+            "activation": 2.232940435409546,
+            "tweet": 3574,
+            "position": 18,
+            "words": "stabenow on pres"
+        }
+    ],
+    "Filter_39": [
+        {
+            "activation": 1.9659010171890259,
+            "tweet": 3525,
+            "position": 9,
+            "words": "are lowly ud"
+        },
+        {
+            "activation": 1.7610055208206177,
+            "tweet": 8114,
+            "position": 6,
+            "words": "<allcaps><number> circled around"
+        },
+        {
+            "activation": 1.7190287113189697,
+            "tweet": 8228,
+            "position": 14,
+            "words": "scarf protects city"
+        },
+        {
+            "activation": 1.6944525241851807,
+            "tweet": 2676,
+            "position": 18,
+            "words": "<unknown> glenside man"
+        },
+        {
+            "activation": 1.6847431659698486,
+            "tweet": 2605,
+            "position": 23,
+            "words": "flows approaching $<number>"
+        },
+        {
+            "activation": 1.6440438032150269,
+            "tweet": 426,
+            "position": 20,
+            "words": "collectively averaged less"
+        },
+        {
+            "activation": 1.6373820304870605,
+            "tweet": 6966,
+            "position": 29,
+            "words": "conceal bake brighten"
+        },
+        {
+            "activation": 1.6081843376159668,
+            "tweet": 4213,
+            "position": 30,
+            "words": "goin outcho way"
+        },
+        {
+            "activation": 1.5854135751724243,
+            "tweet": 9731,
+            "position": 21,
+            "words": "athletes tiptoe around"
+        },
+        {
+            "activation": 1.5841227769851685,
+            "tweet": 8067,
+            "position": 22,
+            "words": "krewe is komin"
+        }
+    ],
+    "Filter_40": [
+        {
+            "activation": 1.7299489974975586,
+            "tweet": 8906,
+            "position": 20,
+            "words": "! vikings bested"
+        },
+        {
+            "activation": 1.503696322441101,
+            "tweet": 3456,
+            "position": 16,
+            "words": "lamentamos la mala"
+        },
+        {
+            "activation": 1.4256517887115479,
+            "tweet": 7125,
+            "position": 18,
+            "words": "favor proporcionanos tu"
+        },
+        {
+            "activation": 1.4028820991516113,
+            "tweet": 3704,
+            "position": 28,
+            "words": "! pineapples forever"
+        },
+        {
+            "activation": 1.38893461227417,
+            "tweet": 3456,
+            "position": 14,
+            "words": "tardes adrix, lamentamos"
+        },
+        {
+            "activation": 1.3423004150390625,
+            "tweet": 9770,
+            "position": 19,
+            "words": "<unknown> yoplait mix-ins"
+        },
+        {
+            "activation": 1.3250186443328857,
+            "tweet": 4213,
+            "position": 30,
+            "words": "goin outcho way"
+        },
+        {
+            "activation": 1.3184531927108765,
+            "tweet": 4053,
+            "position": 29,
+            "words": "\u2661 mishu \ud83d\udd96\ud83c\udffc"
+        },
+        {
+            "activation": 1.3116469383239746,
+            "tweet": 2367,
+            "position": 27,
+            "words": "disfrutar cada momento"
+        },
+        {
+            "activation": 1.3068974018096924,
+            "tweet": 9254,
+            "position": 31,
+            "words": "dub nation <unknown>"
+        }
+    ],
+    "Filter_41": [
+        {
+            "activation": 2.346736431121826,
+            "tweet": 2298,
+            "position": 27,
+            "words": "<hashtag> wahoowa <hashtag>"
+        },
+        {
+            "activation": 2.311751127243042,
+            "tweet": 402,
+            "position": 29,
+            "words": "<allcaps>, echosign <url>"
+        },
+        {
+            "activation": 2.230705738067627,
+            "tweet": 6706,
+            "position": 31,
+            "words": "<hashtag> holidaychillsweepstakes <unknown>"
+        },
+        {
+            "activation": 2.109570026397705,
+            "tweet": 1872,
+            "position": 12,
+            "words": "catchy choruses includes"
+        },
+        {
+            "activation": 1.8310598134994507,
+            "tweet": 5208,
+            "position": 29,
+            "words": "lorbo jeetbo ."
+        },
+        {
+            "activation": 1.7773159742355347,
+            "tweet": 5208,
+            "position": 28,
+            "words": "korbo lorbo jeetbo"
+        },
+        {
+            "activation": 1.7543026208877563,
+            "tweet": 7556,
+            "position": 28,
+            "words": "hairy mutha !"
+        },
+        {
+            "activation": 1.740311622619629,
+            "tweet": 8342,
+            "position": 17,
+            "words": "intentionally dismantled ."
+        },
+        {
+            "activation": 1.6940714120864868,
+            "tweet": 8809,
+            "position": 27,
+            "words": "tastefully colorized by"
+        },
+        {
+            "activation": 1.6910804510116577,
+            "tweet": 9757,
+            "position": 23,
+            "words": "<unknown> fluor selected"
+        }
+    ],
+    "Filter_42": [
+        {
+            "activation": 2.6721043586730957,
+            "tweet": 7244,
+            "position": 17,
+            "words": "montenegro president filip"
+        },
+        {
+            "activation": 2.504241704940796,
+            "tweet": 7005,
+            "position": 19,
+            "words": "switcher <allcaps> means"
+        },
+        {
+            "activation": 2.4989306926727295,
+            "tweet": 1538,
+            "position": 21,
+            "words": "por favor env\u00edenos"
+        },
+        {
+            "activation": 2.429102897644043,
+            "tweet": 9647,
+            "position": 20,
+            "words": "(@ el capitan"
+        },
+        {
+            "activation": 2.4213004112243652,
+            "tweet": 3555,
+            "position": 20,
+            "words": "ofrecemos una disculpa"
+        },
+        {
+            "activation": 2.334812641143799,
+            "tweet": 8013,
+            "position": 29,
+            "words": "nar r ative"
+        },
+        {
+            "activation": 2.3299176692962646,
+            "tweet": 8811,
+            "position": 20,
+            "words": "parish president amos"
+        },
+        {
+            "activation": 2.3023557662963867,
+            "tweet": 2001,
+            "position": 18,
+            "words": "commander bill dolan"
+        },
+        {
+            "activation": 2.280139446258545,
+            "tweet": 6498,
+            "position": 28,
+            "words": "admitir que sigan"
+        },
+        {
+            "activation": 2.249720811843872,
+            "tweet": 1299,
+            "position": 19,
+            "words": "webcast: senate appropriations"
+        }
+    ],
+    "Filter_43": [
+        {
+            "activation": 1.7110263109207153,
+            "tweet": 7140,
+            "position": 27,
+            "words": "@ aeroporto di"
+        },
+        {
+            "activation": 1.5649595260620117,
+            "tweet": 6419,
+            "position": 22,
+            "words": ".\u201d ginni rometty"
+        },
+        {
+            "activation": 1.4106190204620361,
+            "tweet": 4814,
+            "position": 15,
+            "words": "rt <allcaps> <user>:"
+        },
+        {
+            "activation": 1.4106190204620361,
+            "tweet": 203,
+            "position": 20,
+            "words": "rt <allcaps> <user>:"
+        },
+        {
+            "activation": 1.4106190204620361,
+            "tweet": 9309,
+            "position": 14,
+            "words": "rt <allcaps> <user>:"
+        },
+        {
+            "activation": 1.4106190204620361,
+            "tweet": 9904,
+            "position": 27,
+            "words": "rt <allcaps> <user>:"
+        },
+        {
+            "activation": 1.4106190204620361,
+            "tweet": 2216,
+            "position": 15,
+            "words": "rt <allcaps> <user>:"
+        },
+        {
+            "activation": 1.4106190204620361,
+            "tweet": 6833,
+            "position": 19,
+            "words": "rt <allcaps> <user>:"
+        },
+        {
+            "activation": 1.4106190204620361,
+            "tweet": 405,
+            "position": 15,
+            "words": "rt <allcaps> <user>:"
+        },
+        {
+            "activation": 1.4106190204620361,
+            "tweet": 8198,
+            "position": 19,
+            "words": "rt <allcaps> <user>:"
+        }
+    ],
+    "Filter_44": [
+        {
+            "activation": 2.011749029159546,
+            "tweet": 3647,
+            "position": 23,
+            "words": "first-time dem assembly"
+        },
+        {
+            "activation": 1.8574529886245728,
+            "tweet": 9021,
+            "position": 25,
+            "words": "archivist day <user>"
+        },
+        {
+            "activation": 1.8571867942810059,
+            "tweet": 7458,
+            "position": 29,
+            "words": "gameof thrones <user>"
+        },
+        {
+            "activation": 1.7954022884368896,
+            "tweet": 7097,
+            "position": 15,
+            "words": "duchenne muscular dystrophy"
+        },
+        {
+            "activation": 1.7890737056732178,
+            "tweet": 8798,
+            "position": 20,
+            "words": "r&amp;b music with"
+        },
+        {
+            "activation": 1.7734031677246094,
+            "tweet": 5547,
+            "position": 21,
+            "words": "mastered live download"
+        },
+        {
+            "activation": 1.76727294921875,
+            "tweet": 7779,
+            "position": 10,
+            "words": "daysof giving !"
+        },
+        {
+            "activation": 1.733841896057129,
+            "tweet": 402,
+            "position": 28,
+            "words": "ceo <allcaps>, echosign"
+        },
+        {
+            "activation": 1.7054442167282104,
+            "tweet": 9401,
+            "position": 27,
+            "words": "assistants sneak up"
+        },
+        {
+            "activation": 1.684160828590393,
+            "tweet": 7334,
+            "position": 15,
+            "words": "podcasts covering key"
+        }
+    ],
+    "Filter_45": [
+        {
+            "activation": 1.7033666372299194,
+            "tweet": 4145,
+            "position": 22,
+            "words": "tablets que cyber"
+        },
+        {
+            "activation": 1.6460692882537842,
+            "tweet": 9042,
+            "position": 20,
+            "words": "fuerte que nunca"
+        },
+        {
+            "activation": 1.5995864868164062,
+            "tweet": 192,
+            "position": 29,
+            "words": "summer or winter"
+        },
+        {
+            "activation": 1.5738334655761719,
+            "tweet": 9394,
+            "position": 13,
+            "words": "laptops saves enough"
+        },
+        {
+            "activation": 1.5460377931594849,
+            "tweet": 3119,
+            "position": 27,
+            "words": "harm il <allcaps>"
+        },
+        {
+            "activation": 1.508219599723816,
+            "tweet": 5017,
+            "position": 15,
+            "words": "they're financially anxious"
+        },
+        {
+            "activation": 1.5082101821899414,
+            "tweet": 7130,
+            "position": 14,
+            "words": "russie ce soir"
+        },
+        {
+            "activation": 1.4733237028121948,
+            "tweet": 3119,
+            "position": 26,
+            "words": "will harm il"
+        },
+        {
+            "activation": 1.4224088191986084,
+            "tweet": 9734,
+            "position": 18,
+            "words": "milestone helps reset"
+        },
+        {
+            "activation": 1.4142765998840332,
+            "tweet": 3555,
+            "position": 17,
+            "words": "de antemano te"
+        }
+    ],
+    "Filter_46": [
+        {
+            "activation": 2.0187902450561523,
+            "tweet": 9262,
+            "position": 16,
+            "words": "alistando motores !"
+        },
+        {
+            "activation": 1.790004014968872,
+            "tweet": 5680,
+            "position": 19,
+            "words": "yeh hai aapka"
+        },
+        {
+            "activation": 1.790004014968872,
+            "tweet": 1243,
+            "position": 19,
+            "words": "yeh hai aapka"
+        },
+        {
+            "activation": 1.7087599039077759,
+            "tweet": 7600,
+            "position": 24,
+            "words": "apreciamos que han"
+        },
+        {
+            "activation": 1.7032169103622437,
+            "tweet": 9042,
+            "position": 26,
+            "words": "pensar en lo"
+        },
+        {
+            "activation": 1.6436302661895752,
+            "tweet": 2135,
+            "position": 26,
+            "words": "celebs saban, malzahn"
+        },
+        {
+            "activation": 1.56901216506958,
+            "tweet": 3555,
+            "position": 18,
+            "words": "antemano te ofrecemos"
+        },
+        {
+            "activation": 1.5662304162979126,
+            "tweet": 2367,
+            "position": 24,
+            "words": "gracias por hacerme"
+        },
+        {
+            "activation": 1.5393967628479004,
+            "tweet": 1803,
+            "position": 25,
+            "words": "para esta \u00e9poca"
+        },
+        {
+            "activation": 1.5390634536743164,
+            "tweet": 1082,
+            "position": 24,
+            "words": "ya est\u00e1n disponibles"
+        }
+    ],
+    "Filter_47": [
+        {
+            "activation": 1.7854664325714111,
+            "tweet": 402,
+            "position": 29,
+            "words": "<allcaps>, echosign <url>"
+        },
+        {
+            "activation": 1.456250786781311,
+            "tweet": 4381,
+            "position": 18,
+            "words": "half-staff on monday,"
+        },
+        {
+            "activation": 1.4423850774765015,
+            "tweet": 6498,
+            "position": 28,
+            "words": "admitir que sigan"
+        },
+        {
+            "activation": 1.2742146253585815,
+            "tweet": 3959,
+            "position": 31,
+            "words": "gild themselves <unknown>"
+        },
+        {
+            "activation": 1.2710697650909424,
+            "tweet": 8197,
+            "position": 21,
+            "words": "sundance film festival"
+        },
+        {
+            "activation": 1.2270621061325073,
+            "tweet": 8809,
+            "position": 27,
+            "words": "tastefully colorized by"
+        },
+        {
+            "activation": 1.1871020793914795,
+            "tweet": 4479,
+            "position": 21,
+            "words": "regtech, ai <allcaps>,"
+        },
+        {
+            "activation": 1.1796435117721558,
+            "tweet": 834,
+            "position": 19,
+            "words": "tour stage w"
+        },
+        {
+            "activation": 1.149422526359558,
+            "tweet": 2,
+            "position": 19,
+            "words": "<unknown> ai <allcaps>\u2019s"
+        },
+        {
+            "activation": 1.1453547477722168,
+            "tweet": 4321,
+            "position": 18,
+            "words": "que ten\u00edamos un"
+        }
+    ],
+    "Filter_48": [
+        {
+            "activation": 2.0204849243164062,
+            "tweet": 7855,
+            "position": 12,
+            "words": "do self-serve kiosks"
+        },
+        {
+            "activation": 1.913385033607483,
+            "tweet": 5784,
+            "position": 6,
+            "words": "<unknown> wilkes-barre pa"
+        },
+        {
+            "activation": 1.6775500774383545,
+            "tweet": 5,
+            "position": 22,
+            "words": "<unknown> anti-tax club"
+        },
+        {
+            "activation": 1.6321338415145874,
+            "tweet": 9875,
+            "position": 13,
+            "words": "prudential volunteers sweep"
+        },
+        {
+            "activation": 1.4904612302780151,
+            "tweet": 4239,
+            "position": 27,
+            "words": "tim mcgraw concert"
+        },
+        {
+            "activation": 1.4156402349472046,
+            "tweet": 4834,
+            "position": 28,
+            "words": "insert half-hearted unregulated"
+        },
+        {
+            "activation": 1.3884780406951904,
+            "tweet": 1042,
+            "position": 23,
+            "words": "cube, offering best-in-class"
+        },
+        {
+            "activation": 1.3836002349853516,
+            "tweet": 5931,
+            "position": 20,
+            "words": "ohioans stranded w"
+        },
+        {
+            "activation": 1.3602808713912964,
+            "tweet": 252,
+            "position": 23,
+            "words": "head-to-toe holiday styles,"
+        },
+        {
+            "activation": 1.3568178415298462,
+            "tweet": 3767,
+            "position": 15,
+            "words": "crusade to impeach"
+        }
+    ],
+    "Filter_49": [
+        {
+            "activation": 2.285127639770508,
+            "tweet": 4802,
+            "position": 14,
+            "words": "<unknown> omedetou gozaimasu"
+        },
+        {
+            "activation": 1.8978158235549927,
+            "tweet": 4311,
+            "position": 15,
+            "words": "adhesive polymers serve"
+        },
+        {
+            "activation": 1.7721564769744873,
+            "tweet": 1994,
+            "position": 30,
+            "words": "\"it's super-hot .\""
+        },
+        {
+            "activation": 1.683539628982544,
+            "tweet": 367,
+            "position": 14,
+            "words": "kara swisher intvw"
+        },
+        {
+            "activation": 1.6311352252960205,
+            "tweet": 8644,
+            "position": 9,
+            "words": "elton diamonds boxset"
+        },
+        {
+            "activation": 1.5693820714950562,
+            "tweet": 4826,
+            "position": 13,
+            "words": "mkt stocks outperform"
+        },
+        {
+            "activation": 1.5688292980194092,
+            "tweet": 7964,
+            "position": 14,
+            "words": "<unknown> l'shana tovah"
+        },
+        {
+            "activation": 1.4824273586273193,
+            "tweet": 6852,
+            "position": 18,
+            "words": "dragon h-d krakow"
+        },
+        {
+            "activation": 1.4421731233596802,
+            "tweet": 3451,
+            "position": 18,
+            "words": "<unknown> frankie muniz"
+        },
+        {
+            "activation": 1.3959850072860718,
+            "tweet": 7097,
+            "position": 15,
+            "words": "duchenne muscular dystrophy"
+        }
+    ],
+    "Filter_50": [
+        {
+            "activation": 1.7299516201019287,
+            "tweet": 2145,
+            "position": 25,
+            "words": "pad man trailer"
+        },
+        {
+            "activation": 1.7299516201019287,
+            "tweet": 5680,
+            "position": 27,
+            "words": "pad man trailer"
+        },
+        {
+            "activation": 1.7299516201019287,
+            "tweet": 7806,
+            "position": 10,
+            "words": "pad man trailer"
+        },
+        {
+            "activation": 1.7299516201019287,
+            "tweet": 6065,
+            "position": 26,
+            "words": "pad man trailer"
+        },
+        {
+            "activation": 1.7299516201019287,
+            "tweet": 1695,
+            "position": 26,
+            "words": "pad man trailer"
+        },
+        {
+            "activation": 1.7299516201019287,
+            "tweet": 4719,
+            "position": 26,
+            "words": "pad man trailer"
+        },
+        {
+            "activation": 1.7299516201019287,
+            "tweet": 8573,
+            "position": 26,
+            "words": "pad man trailer"
+        },
+        {
+            "activation": 1.7299516201019287,
+            "tweet": 1243,
+            "position": 27,
+            "words": "pad man trailer"
+        },
+        {
+            "activation": 1.7299516201019287,
+            "tweet": 4635,
+            "position": 25,
+            "words": "pad man trailer"
+        },
+        {
+            "activation": 1.7299516201019287,
+            "tweet": 5352,
+            "position": 25,
+            "words": "pad man trailer"
+        }
+    ],
+    "Filter_51": [
+        {
+            "activation": 2.6085050106048584,
+            "tweet": 8250,
+            "position": 23,
+            "words": "farms cheeses will"
+        },
+        {
+            "activation": 2.011751651763916,
+            "tweet": 9573,
+            "position": 15,
+            "words": "finalists &amp; ryder"
+        },
+        {
+            "activation": 1.8803272247314453,
+            "tweet": 8332,
+            "position": 16,
+            "words": "self-driving hardware and"
+        },
+        {
+            "activation": 1.8315743207931519,
+            "tweet": 868,
+            "position": 17,
+            "words": "tireless leadership and"
+        },
+        {
+            "activation": 1.7585461139678955,
+            "tweet": 219,
+            "position": 27,
+            "words": "eyebrows say about"
+        },
+        {
+            "activation": 1.6977885961532593,
+            "tweet": 5014,
+            "position": 17,
+            "words": "communities &amp; families"
+        },
+        {
+            "activation": 1.6688557863235474,
+            "tweet": 9875,
+            "position": 13,
+            "words": "prudential volunteers sweep"
+        },
+        {
+            "activation": 1.6671804189682007,
+            "tweet": 7884,
+            "position": 20,
+            "words": "performance &amp; find"
+        },
+        {
+            "activation": 1.657092571258545,
+            "tweet": 4544,
+            "position": 21,
+            "words": "analytics unit for"
+        },
+        {
+            "activation": 1.627972960472107,
+            "tweet": 8123,
+            "position": 26,
+            "words": "upend leadership over"
+        }
+    ],
+    "Filter_52": [
+        {
+            "activation": 1.4917590618133545,
+            "tweet": 9262,
+            "position": 15,
+            "words": "juego alistando motores"
+        },
+        {
+            "activation": 1.380953311920166,
+            "tweet": 1589,
+            "position": 21,
+            "words": "buenas tardes, ya"
+        },
+        {
+            "activation": 1.3356173038482666,
+            "tweet": 6502,
+            "position": 21,
+            "words": "poder ayudarte \u00bfnos"
+        },
+        {
+            "activation": 1.2600030899047852,
+            "tweet": 1948,
+            "position": 29,
+            "words": "di lusso deli"
+        },
+        {
+            "activation": 1.2557904720306396,
+            "tweet": 6593,
+            "position": 18,
+            "words": "podr\u00edas contactar v\u00eda"
+        },
+        {
+            "activation": 1.169593095779419,
+            "tweet": 3456,
+            "position": 13,
+            "words": "buenas tardes adrix,"
+        },
+        {
+            "activation": 1.1600475311279297,
+            "tweet": 3555,
+            "position": 14,
+            "words": "buenas tardes andr\u00e9s,"
+        },
+        {
+            "activation": 1.159008502960205,
+            "tweet": 6290,
+            "position": 10,
+            "words": "reseller agmt w"
+        },
+        {
+            "activation": 1.1531164646148682,
+            "tweet": 1481,
+            "position": 20,
+            "words": "commonsense megabyte <allcaps>"
+        },
+        {
+            "activation": 1.0839216709136963,
+            "tweet": 4485,
+            "position": 28,
+            "words": "happy verde <user>"
+        }
+    ],
+    "Filter_53": [
+        {
+            "activation": 2.4072556495666504,
+            "tweet": 6342,
+            "position": 20,
+            "words": "dabney langhorne friedrich"
+        },
+        {
+            "activation": 2.3614585399627686,
+            "tweet": 1948,
+            "position": 29,
+            "words": "di lusso deli"
+        },
+        {
+            "activation": 2.348468542098999,
+            "tweet": 1793,
+            "position": 26,
+            "words": "la letra de"
+        },
+        {
+            "activation": 2.1441736221313477,
+            "tweet": 4858,
+            "position": 14,
+            "words": "who popped by"
+        },
+        {
+            "activation": 2.1095738410949707,
+            "tweet": 2078,
+            "position": 17,
+            "words": "y sepa qu\u00e9"
+        },
+        {
+            "activation": 2.106264591217041,
+            "tweet": 6797,
+            "position": 23,
+            "words": "terra limpa from"
+        },
+        {
+            "activation": 2.0361146926879883,
+            "tweet": 5625,
+            "position": 14,
+            "words": "sabes algo m\u00e1s"
+        },
+        {
+            "activation": 2.029644727706909,
+            "tweet": 2854,
+            "position": 15,
+            "words": "lear spirit at"
+        },
+        {
+            "activation": 1.931878685951233,
+            "tweet": 8309,
+            "position": 28,
+            "words": "re zingales oped"
+        },
+        {
+            "activation": 1.9088557958602905,
+            "tweet": 975,
+            "position": 10,
+            "words": "encouraging ideas, experimentation"
+        }
+    ],
+    "Filter_54": [
+        {
+            "activation": 1.7518229484558105,
+            "tweet": 4476,
+            "position": 15,
+            "words": "ranking dem cantwell"
+        },
+        {
+            "activation": 1.5502066612243652,
+            "tweet": 3127,
+            "position": 21,
+            "words": "seasoned loin filets"
+        },
+        {
+            "activation": 1.460949182510376,
+            "tweet": 4029,
+            "position": 23,
+            "words": "families &amp; caregivers"
+        },
+        {
+            "activation": 1.4543721675872803,
+            "tweet": 3647,
+            "position": 23,
+            "words": "first-time dem assembly"
+        },
+        {
+            "activation": 1.2190842628479004,
+            "tweet": 5255,
+            "position": 26,
+            "words": "<unknown> bootsy bellows"
+        },
+        {
+            "activation": 1.216508150100708,
+            "tweet": 8228,
+            "position": 13,
+            "words": "smart scarf protects"
+        },
+        {
+            "activation": 1.1776721477508545,
+            "tweet": 9918,
+            "position": 9,
+            "words": "<hashtag> opioid epidemic"
+        },
+        {
+            "activation": 1.1776721477508545,
+            "tweet": 454,
+            "position": 23,
+            "words": "<hashtag> opioid epidemic"
+        },
+        {
+            "activation": 1.170950174331665,
+            "tweet": 7868,
+            "position": 28,
+            "words": ". kranke welt"
+        },
+        {
+            "activation": 1.151031255722046,
+            "tweet": 7418,
+            "position": 25,
+            "words": "users came unglued"
+        }
+    ],
+    "Filter_55": [
+        {
+            "activation": 1.2846686840057373,
+            "tweet": 7097,
+            "position": 15,
+            "words": "duchenne muscular dystrophy"
+        },
+        {
+            "activation": 1.096556544303894,
+            "tweet": 6922,
+            "position": 22,
+            "words": "transient protein expression"
+        },
+        {
+            "activation": 1.0585639476776123,
+            "tweet": 5846,
+            "position": 21,
+            "words": "foundational neuroscience center,"
+        },
+        {
+            "activation": 1.0521585941314697,
+            "tweet": 7001,
+            "position": 16,
+            "words": "genetic blood disorder"
+        },
+        {
+            "activation": 1.0395516157150269,
+            "tweet": 8847,
+            "position": 31,
+            "words": "irresponsible tour <unknown>"
+        },
+        {
+            "activation": 0.9919772744178772,
+            "tweet": 2619,
+            "position": 27,
+            "words": "furnas / harlan"
+        },
+        {
+            "activation": 0.9797071814537048,
+            "tweet": 5176,
+            "position": 20,
+            "words": "disastrous \u2018bachelor\u2019 finale"
+        },
+        {
+            "activation": 0.9624339938163757,
+            "tweet": 1045,
+            "position": 25,
+            "words": "long-shot waters challenger"
+        },
+        {
+            "activation": 0.9312793612480164,
+            "tweet": 6848,
+            "position": 30,
+            "words": "\u0916\u093e\u0928\u0947 \u0915\u093e \u0936\u094c\u0915\u0940\u0928"
+        },
+        {
+            "activation": 0.9289695620536804,
+            "tweet": 5480,
+            "position": 27,
+            "words": "faltarte para iniciar"
+        }
+    ],
+    "Filter_56": [
+        {
+            "activation": 1.987523078918457,
+            "tweet": 7468,
+            "position": 28,
+            "words": "dorothy mantooth would've"
+        },
+        {
+            "activation": 1.6001317501068115,
+            "tweet": 2121,
+            "position": 14,
+            "words": "<unknown> krissy flemister"
+        },
+        {
+            "activation": 1.450039029121399,
+            "tweet": 9280,
+            "position": 18,
+            "words": "chaplain sharad creasman,"
+        },
+        {
+            "activation": 1.4471213817596436,
+            "tweet": 5784,
+            "position": 6,
+            "words": "<unknown> wilkes-barre pa"
+        },
+        {
+            "activation": 1.4104511737823486,
+            "tweet": 3032,
+            "position": 31,
+            "words": "rekt sandwich <unknown>"
+        },
+        {
+            "activation": 1.388146996498108,
+            "tweet": 6629,
+            "position": 26,
+            "words": "burr hammering comey"
+        },
+        {
+            "activation": 1.3855899572372437,
+            "tweet": 4000,
+            "position": 22,
+            "words": "werk werk werk"
+        },
+        {
+            "activation": 1.3855899572372437,
+            "tweet": 4000,
+            "position": 23,
+            "words": "werk werk werk"
+        },
+        {
+            "activation": 1.3855899572372437,
+            "tweet": 4000,
+            "position": 25,
+            "words": "werk werk werk"
+        },
+        {
+            "activation": 1.3855899572372437,
+            "tweet": 4000,
+            "position": 24,
+            "words": "werk werk werk"
+        }
+    ],
+    "Filter_57": [
+        {
+            "activation": 2.1228585243225098,
+            "tweet": 4173,
+            "position": 14,
+            "words": "of uncharacteristic modesty:"
+        },
+        {
+            "activation": 1.8289350271224976,
+            "tweet": 8484,
+            "position": 30,
+            "words": "n y merlo"
+        },
+        {
+            "activation": 1.7776153087615967,
+            "tweet": 5343,
+            "position": 21,
+            "words": "cystic fibrosis foundation"
+        },
+        {
+            "activation": 1.6323026418685913,
+            "tweet": 9905,
+            "position": 16,
+            "words": "protections preventing nursing"
+        },
+        {
+            "activation": 1.6051959991455078,
+            "tweet": 7730,
+            "position": 17,
+            "words": "<hashtag> rotary actuator"
+        },
+        {
+            "activation": 1.604804515838623,
+            "tweet": 5480,
+            "position": 25,
+            "words": "no puede faltarte"
+        },
+        {
+            "activation": 1.5895839929580688,
+            "tweet": 6629,
+            "position": 26,
+            "words": "burr hammering comey"
+        },
+        {
+            "activation": 1.574432611465454,
+            "tweet": 2627,
+            "position": 20,
+            "words": "judiciary committee marks"
+        },
+        {
+            "activation": 1.5639872550964355,
+            "tweet": 5627,
+            "position": 30,
+            "words": "<hashtag> amgen onco"
+        },
+        {
+            "activation": 1.5639872550964355,
+            "tweet": 5391,
+            "position": 30,
+            "words": "<hashtag> amgen onco"
+        }
+    ],
+    "Filter_58": [
+        {
+            "activation": 2.173759937286377,
+            "tweet": 3697,
+            "position": 20,
+            "words": "plus free blowouts"
+        },
+        {
+            "activation": 1.7934660911560059,
+            "tweet": 2262,
+            "position": 27,
+            "words": "hard-working granite staters"
+        },
+        {
+            "activation": 1.7253860235214233,
+            "tweet": 6824,
+            "position": 14,
+            "words": "carreras . aforo"
+        },
+        {
+            "activation": 1.6022180318832397,
+            "tweet": 4483,
+            "position": 31,
+            "words": "elbow pain <unknown>"
+        },
+        {
+            "activation": 1.5579524040222168,
+            "tweet": 6502,
+            "position": 22,
+            "words": "ayudarte \u00bfnos puedes"
+        },
+        {
+            "activation": 1.5490280389785767,
+            "tweet": 1964,
+            "position": 26,
+            "words": "your eyes peeled"
+        },
+        {
+            "activation": 1.4969385862350464,
+            "tweet": 1649,
+            "position": 27,
+            "words": "et le basket"
+        },
+        {
+            "activation": 1.3893383741378784,
+            "tweet": 9623,
+            "position": 15,
+            "words": "giving away tickets"
+        },
+        {
+            "activation": 1.3891483545303345,
+            "tweet": 4213,
+            "position": 29,
+            "words": "always goin outcho"
+        },
+        {
+            "activation": 1.3865890502929688,
+            "tweet": 1538,
+            "position": 23,
+            "words": "env\u00edenos un mensaje"
+        }
+    ],
+    "Filter_59": [
+        {
+            "activation": 2.289048194885254,
+            "tweet": 7644,
+            "position": 18,
+            "words": "nubile dancer gf"
+        },
+        {
+            "activation": 1.997499942779541,
+            "tweet": 1234,
+            "position": 21,
+            "words": "duniya badalte hain"
+        },
+        {
+            "activation": 1.5848751068115234,
+            "tweet": 9259,
+            "position": 22,
+            "words": "album dropped ?"
+        },
+        {
+            "activation": 1.5770933628082275,
+            "tweet": 8467,
+            "position": 29,
+            "words": "on newsstands now:"
+        },
+        {
+            "activation": 1.570031762123108,
+            "tweet": 321,
+            "position": 22,
+            "words": "milo smuggled nazi"
+        },
+        {
+            "activation": 1.5657804012298584,
+            "tweet": 317,
+            "position": 16,
+            "words": "laser chez gf"
+        },
+        {
+            "activation": 1.451769232749939,
+            "tweet": 4366,
+            "position": 31,
+            "words": "korean aggression <unknown>"
+        },
+        {
+            "activation": 1.421562671661377,
+            "tweet": 1219,
+            "position": 29,
+            "words": "kal dikhata hoon"
+        },
+        {
+            "activation": 1.4174540042877197,
+            "tweet": 279,
+            "position": 25,
+            "words": "artist azzah sultan"
+        },
+        {
+            "activation": 1.4085862636566162,
+            "tweet": 5263,
+            "position": 22,
+            "words": "de prensa hechas"
+        }
+    ],
+    "Filter_60": [
+        {
+            "activation": 2.082601547241211,
+            "tweet": 1427,
+            "position": 24,
+            "words": "amex categorizes pret"
+        },
+        {
+            "activation": 2.0369629859924316,
+            "tweet": 4213,
+            "position": 30,
+            "words": "goin outcho way"
+        },
+        {
+            "activation": 1.9381871223449707,
+            "tweet": 4901,
+            "position": 31,
+            "words": "dilly dilly <unknown>"
+        },
+        {
+            "activation": 1.7842525243759155,
+            "tweet": 7526,
+            "position": 25,
+            "words": "steal jcb <allcaps>'s"
+        },
+        {
+            "activation": 1.7149492502212524,
+            "tweet": 8028,
+            "position": 15,
+            "words": "carrie pittman meek"
+        },
+        {
+            "activation": 1.6905560493469238,
+            "tweet": 2662,
+            "position": 6,
+            "words": "turbocharged <number>-hp tfsi"
+        },
+        {
+            "activation": 1.6636998653411865,
+            "tweet": 8072,
+            "position": 12,
+            "words": "house intel member"
+        },
+        {
+            "activation": 1.6102104187011719,
+            "tweet": 2940,
+            "position": 29,
+            "words": "v scorecard \u2192"
+        },
+        {
+            "activation": 1.5737645626068115,
+            "tweet": 4695,
+            "position": 28,
+            "words": "window gaskets employ"
+        },
+        {
+            "activation": 1.532655119895935,
+            "tweet": 5240,
+            "position": 17,
+            "words": "mckesson named trailblazer"
+        }
+    ],
+    "Filter_61": [
+        {
+            "activation": 1.4011950492858887,
+            "tweet": 5680,
+            "position": 18,
+            "words": "nahi, yeh hai"
+        },
+        {
+            "activation": 1.4011950492858887,
+            "tweet": 1243,
+            "position": 18,
+            "words": "nahi, yeh hai"
+        },
+        {
+            "activation": 1.238210678100586,
+            "tweet": 7644,
+            "position": 18,
+            "words": "nubile dancer gf"
+        },
+        {
+            "activation": 1.2112942934036255,
+            "tweet": 8144,
+            "position": 17,
+            "words": "chantaje en solo"
+        },
+        {
+            "activation": 1.1911227703094482,
+            "tweet": 4173,
+            "position": 14,
+            "words": "of uncharacteristic modesty:"
+        },
+        {
+            "activation": 1.1653456687927246,
+            "tweet": 7059,
+            "position": 17,
+            "words": "un entrenamiento diferente"
+        },
+        {
+            "activation": 1.105063796043396,
+            "tweet": 1216,
+            "position": 13,
+            "words": "<unknown> <unknown> decreasing"
+        },
+        {
+            "activation": 1.0834931135177612,
+            "tweet": 1234,
+            "position": 21,
+            "words": "duniya badalte hain"
+        },
+        {
+            "activation": 1.0189659595489502,
+            "tweet": 1376,
+            "position": 17,
+            "words": "hip joints ."
+        },
+        {
+            "activation": 1.0123703479766846,
+            "tweet": 5412,
+            "position": 12,
+            "words": "global gag ignores"
+        }
+    ],
+    "Filter_62": [
+        {
+            "activation": 2.510188102722168,
+            "tweet": 4329,
+            "position": 24,
+            "words": ". <hashtag> neatfreak"
+        },
+        {
+            "activation": 2.4792327880859375,
+            "tweet": 1183,
+            "position": 20,
+            "words": "know the ninja"
+        },
+        {
+            "activation": 2.401876926422119,
+            "tweet": 1183,
+            "position": 28,
+            "words": "<hashtag> go ninja"
+        },
+        {
+            "activation": 2.401876926422119,
+            "tweet": 1183,
+            "position": 25,
+            "words": "<hashtag> go ninja"
+        },
+        {
+            "activation": 2.377436637878418,
+            "tweet": 3133,
+            "position": 25,
+            "words": ". <hashtag> gameof"
+        },
+        {
+            "activation": 2.303981065750122,
+            "tweet": 6139,
+            "position": 10,
+            "words": "carry the brca"
+        },
+        {
+            "activation": 2.2991950511932373,
+            "tweet": 7806,
+            "position": 8,
+            "words": "<user> <hashtag> pad"
+        },
+        {
+            "activation": 2.284721851348877,
+            "tweet": 4454,
+            "position": 25,
+            "words": "these <hashtag> careertips"
+        },
+        {
+            "activation": 2.260343313217163,
+            "tweet": 157,
+            "position": 21,
+            "words": "between traveling internationally"
+        },
+        {
+            "activation": 2.234683036804199,
+            "tweet": 6200,
+            "position": 16,
+            "words": "the <hashtag> gameof"
+        }
+    ],
+    "Filter_63": [
+        {
+            "activation": 1.934375524520874,
+            "tweet": 5507,
+            "position": 26,
+            "words": "aggressive sjw <allcaps>s"
+        },
+        {
+            "activation": 1.8609275817871094,
+            "tweet": 3184,
+            "position": 14,
+            "words": "matching headcover &amp;"
+        },
+        {
+            "activation": 1.653800368309021,
+            "tweet": 6342,
+            "position": 19,
+            "words": "staffer dabney langhorne"
+        },
+        {
+            "activation": 1.6384721994400024,
+            "tweet": 4770,
+            "position": 29,
+            "words": "select thinkgeek collectibles\u2026"
+        },
+        {
+            "activation": 1.5061378479003906,
+            "tweet": 6728,
+            "position": 17,
+            "words": "event, mandi (chief"
+        },
+        {
+            "activation": 1.4719716310501099,
+            "tweet": 6266,
+            "position": 28,
+            "words": "could conceivably siphon"
+        },
+        {
+            "activation": 1.4558321237564087,
+            "tweet": 6516,
+            "position": 27,
+            "words": "alt-right subreddits closed"
+        },
+        {
+            "activation": 1.4438303709030151,
+            "tweet": 3902,
+            "position": 20,
+            "words": "improperly modified eloy"
+        },
+        {
+            "activation": 1.4358999729156494,
+            "tweet": 4823,
+            "position": 25,
+            "words": "no pok\u00e9 flute"
+        },
+        {
+            "activation": 1.4210329055786133,
+            "tweet": 5391,
+            "position": 31,
+            "words": "amgen onco <unknown>"
+        }
+    ]
+}
