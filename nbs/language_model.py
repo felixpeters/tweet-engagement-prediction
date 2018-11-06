@@ -25,7 +25,7 @@ print("Testing a total of {} network architectures".format(len(configs)))
 
 # configure logging
 root_path = 'models/lang_model/'
-log_path = 'models/lang_model/train/'
+log_path = 'models/lang_model/test/'
 
 for config in configs:
     # clear TF session first in order to avoid conflicts
